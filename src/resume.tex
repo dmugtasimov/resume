@@ -1,0 +1,272 @@
+\documentclass[a4paper,8pt]{extarticle}
+\usepackage{anyfontsize}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.25in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{mathptmx}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{svg}
+
+% TODO(dmu) LOW: Create index as a part of PDF file
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0em}
+\setlist[itemize]{noitemsep}
+
+\hypersetup{
+% TODO(dmu) MEDIUM: Add document metadata
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdfborder={0 0 0}
+}
+
+\newcommand{\chref}[2]{\href{#1}{\underline{\smash{#2}}}}  % custom \href
+\newcommand{\itchref}[2]{\chref{#1}{\textit{#2}}}  % custom \href
+\newcommand{\chrule}{\vspace{3pt}\hrule}
+\newcommand{\cfontsize}[1]{\fontsize{#1}{#1 * 1.2}\selectfont}  % custom \fontsize
+
+\titleformat{\section}{\bfseries\cfontsize{16pt}}{}{0em}{}[\titlerule]
+
+\titleformat{\subsection}{\bfseries\itshape\cfontsize{12pt}}{}{0em}{}
+\titlespacing{\subsection}{0pt}{*3}{*1}
+
+\titleformat{\subsubsection}{\bfseries\cfontsize{10pt}}{}{0em}{}
+\titlespacing{\subsubsection}{0pt}{*2.2}{0.2em}
+
+\begin{document}
+
+\begin{center}
+    % TODO(dmu) LOW: Avoid repeating [1pt]
+    \cfontsize{20pt}\textbf{Dmitry Mugtasimov}\\[1pt]
+    \cfontsize{18pt} Senior Python Developer / System Architect / Team Leader\\[1pt]
+    \cfontsize{18pt}\chref{https://t.me/dmugtasimov}{@dmugtasimov} \includesvg[height=0.7em]{src/telegram-logo.svg}\\[1pt]
+    \cfontsize{18pt}\chref{mailto:dmugtasimov@gmail.com}{dmugtasimov@gmail.com}
+\end{center}
+
+\begin{center}
+    \medskip
+    \textit {
+        \cfontsize{14pt}\textbf{Top Rated Plus} and \textbf{Expert-Vetted} \textbullet{} \textbf{6500+ hours} and \textbf{28 jobs} worked at Upwork\\[5pt]
+        100\% Job Success Score \textbullet{} Outstanding feedback from clients \textbullet{} Fluent English
+    }
+\end{center}
+
+\section*{Professional Experience}
+{
+    \cfontsize{10pt}
+    26 years of experience in software engineering, with overlapping roles:
+    \begin{itemize}
+        \setlength{\itemsep}{4pt}
+        \item 13 years in Python development (plus 4 years in other programming languages)
+        \item 8 years in managerial positions
+        \item 8 years in software quality assurance
+        \item 5 years in system administration
+    \end{itemize}
+}
+
+% Technology groupping format:
+% Python, frameworks, other programming languages if any, databases and database like services, APIs, protocols, formats
+
+\subsection*{Freelance, Jun 2016 -- now (over 8 years)}
+\subsubsection*{ReturnZap (returns Shopify application), \itchref{https://returnzap.com}{returnzap.com}, Senior Python Developer, Jul 2023 -- now (over 1 year)}
+Implemented new features and enhancements on the existing codebase of the Shopify application for submitting and managing e-commerce returns.
+\chrule
+Python 3.10, Django 3.2, Celery, Graphene, React, PostgreSQL, Redis, GraphQL, Shopify API, Easypost API, Shippo API, Sendcloud API, gunicorn and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{Openrent (car rental), Senior Python Developer, May 2023 -- now (over 1 year)}
+Developed a car photo management software. Supported, maintained, and added more features to a car business process management Telegram bot.
+\chrule
+Python 3.11, PostgreSQL, SQL, Dropbox API, Telegram API, Plate Recognizer API, Getaround API, Pennylane API, JPEG and EXIF, AWS (EC2, RDS, Lambda, API Gateway) and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{thenewboston (blockchain), \itchref{https://thenewboston.com}{thenewboston.com}, Team Leader / Senior Python Developer, Feb 2021 -- now (2+ years excluding gaps)}
+Developed distributed proof of stake blockchain-based cryptocurrency -- TNBC, distributed communication backend, and Python client-side library.\\
+\textbf{Source code} (validate authorship of the most of the lines with \texttt{git blame}):
+\begin{itemize}
+    \item \url{https://github.com/thenewboston-developers/Core} (\itchref{https://github.com/dmugtasimov/Core}{fork}, \itchref{https://github.com/dmugtasimov/Core-copy}{copy})
+    \item \url{https://github.com/thenewboston-developers/Node} (\itchref{https://github.com/dmugtasimov/Node}{fork}, \itchref{https://github.com/dmugtasimov/Node-copy}{copy})
+    \item \url{https://github.com/thenewboston-blockchain/thenewboston-node} (\itchref{https://github.com/dmugtasimov/thenewboston-node}{fork}, \itchref{https://github.com/dmugtasimov/thenewboston-node-copy}{copy})
+\end{itemize}
+\textbf{Client's feedback:} \textit{"Dmitry was one of the best developers we have ever worked with. Quality of work was excellent, communication was great, and he is extremely knowledgeable in many areas of software development. Highly recommended!"}
+\chrule
+Python 3.10, Django, Django REST framework, Django Channels, Djongo, Celery, Pydantic, MongoDB, PostgreSQL, Redis, RabbitMQ, OpenAI API (chat completion, image generation), PromptLayer API, WebSockets, MessagePack, daphne, AWS (EC2, Route 53) and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{ShyftOff (call center outsourcer), \itchref{https://shyftoff.com}{shyftoff.com}, Senior Python Developer, Jun 2023 -- May 2024 (1 year)}
+Developed a call center agent facing software: agent performance stats, campaign application and workflow, payment information, notifications, etc.\\
+\textbf{Client's feedback:} \textit{"Dmitry brings a lot of experience and talent to deliver solutions quickly! He understands software engineering at a deep technical level and doesn't turn down a challenge."}
+\chrule
+Python 3.11, FastAPI (fully async), SQLAlchemy (fully async), Django 5, Pydantic, Alembic, PostgreSQL, OpenAI API (embeddings, chat completion), Twilio API (calls, SMS), WebSockets, uvicorn, Terraform, AWS (ECS, RDS, Lambda, Cognito) and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{Suno Software Inc. (healthcare: audiology), \itchref{https://suno.tech}{suno.tech}, Team Leader / Senior Python Developer, Jul 2022 -- Mar 2023 (8 months)}
+Developed audiology clinics business process automation SaaS.
+\chrule
+Python 3.10, Django, Django REST framework, Django Channels, Celery, Pydantic, PostgreSQL, Twilio API, Tilled API, JustiFi API, Claim.md API, Box API, daphne, AWS (RDS, ECS, SES, CDK) and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{Lehner Investments (trading), \textcolor{lightgray}{lehnerinvestments.com}, \textbf{Senior Python Developer}, Aug 2020 -- Apr 2022 (1 year 8 months)}
+Developed microservice architecture (9 microservices) mutual fund trading system backend.\\
+\textbf{Client's feedback:} \textit{"It was a pleasure to work with Dmitry. He was extremely helpful in creating architecture and design that fit our different requirements very well. Dmitry is also extremely effective in the implementation of the resulting tasks and the resulting services and packages have already proven to be very useful, reliable and maintainable in production. We can definitely recommend to work with Dmitry."}
+\chrule
+Python 3.9, nameko, Django, Django REST framework, PostgreSQL, RabbitMQ, pandas, numpy, SendGrid API, WebSockets, socket.io and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{The Convenience App (e-commerce retail application), Senior Python Developer, Mar 2021 -- Feb 2022 (1 year)}
+Developed a REST API backend for mobile (Android and iOS) curbside pickup application.\\
+\textbf{Client's feedback:} 5 stars
+\chrule
+Python 3.9, Django, Django REST Framework, Celery, PostgreSQL, Stripe API, SendGrid API, Twilio API, Google Maps API, gunicorn, Heroku, AWS S3 and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{Medical Device Risks (healthcare), Senior Python Developer, Aug 2020 -- Jul 2021 (1 year)}
+Developed a REST API backend for medical device risks management single page application.\\
+\textbf{Client's feedback:} \textit{"Brilliant Engineer to work with. Highly recommended"}
+\chrule
+Python 3.8, Django, Django REST Framework, Celery, PostgreSQL, Full-text search, SendGrid API, gunicorn, Heroku, AWS S3 and a \hyperlink{common-toolset}{common toolset}
+
+\pagebreak
+
+\subsubsection*{7 Cheetahs (automated trading), \itchref{https://7cheetahs.com}{7cheetahs.com}, Team Leader / Senior Python Developer, Aug 2019 -- Apr 2020 (9 months)}
+Refactored to microservice architecture and developed a futures trading system. Managed a remote team of 5 python developers. Designed new scalable higher performance architecture.\\
+\textbf{Client's feedback:} \textit{"Dmitry is an all-star. You won't find a better developer on Upwork, period. He communicates well, has tons of experience, will bring a deep understanding of architecture and design to your platform, as well as implement it in a clean way (he's written a blog post on code conventions and style), and work within your procedural framework to accomplish your goals. Again, you won't find a better hire on Upwork. A+"}
+\chrule
+Python 3.7, Django, MongoDB, PostgreSQL, logstash (ELK), RabbitMQ, pandas, numpy, IQFeed API, InteractiveBrokers API, nginx, uWSGI, git, pytest, Jenkins, PyCharm, Linux (Ubuntu), Windows
+
+\subsubsection*{Dolphin, Inc. (job search), \textcolor{lightgray}{splashwithdolphin.com}, Senior Python Developer, Feb 2019 -- Jan 2021 (1 year 11 months)}
+Developed a REST API backend for iOS job search and recommendation application.\\
+\textbf{Client's feedback:} \textit{"It's always a pleasure working with Dmitry. Amazing work as usual"}
+\chrule
+Python 3.7, Django, Django REST Framework, Scrapy, Celery, SQL, PostgreSQL, Full-text search, RabbitMQ, HTML / CSS/ JavaScript / jQuery, gunicorn, Heroku, AWS S3, SendGrid API, pipenv, pylint and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{we love data sp. z o.o (email marketing), Database Developer, Jan 2019 -- Sep 2019 (9 months)}
+Database structure and SQL-queries optimization for email subscription service with about 40 million subscribers.\\
+\textbf{Client's feedback:} 5 stars
+\chrule
+PostgreSQL 11, SQL
+
+\subsubsection*{Packy (network monitoring), \textbf{Senior Python Developer}, Jun 2017 -- Aug 2019 (2 years 2 months)}
+Implemented 3 backend components (REST API server, WAMP / WebSockets API server, monitoring agent) of distributed network monitoring system.\\
+\textbf{Client's feedback:} \textit{"Dmitry is a very highly skilled developer with second-to-none attention to detail. Dmitry has brought our project to the next-level and we look forward to working with him again soon."}
+\chrule
+Python 3.7, Python 2.7, Django, Django REST Framework, Flask, Crossbar, Celery, gevent, HTML, JavaScript, PostgreSQL, RabbitMQ, Schematics, WAMP, WebSockets, raw sockets (IP, ICMP, and UDP protocols), Raspbian, Armbian, Raspberry Pi 3 Model B/B+, Orange Pi Zero, AWS (EC2, RDS, S3, ElastiCache, SES) and a \hyperlink{common-toolset}{common toolset}
+
+\subsubsection*{CreditSCRIPT (finances), \itchref{https://www.creditscript.com}{www.creditscript.com}, Senior Python Developer, Jan 2017 -- Sep 2017 (9 months)}
+Developed 10 high performance loan bidding micro-services integrated via Kafka bus.\\
+\textbf{Client's feedback:} \textit{"Excellent senior python developer. Architected, developed and delivered a complicated project for us. Look forward to co-operating in future."}
+\chrule
+Python 3.5, Python 2.7, Flask, Flask-GraphQL, Flask-RESTful, SQLAlchemy, Alembic, Graphene, Schematics, gevent, asynchronous programming, PostgreSQL, MySQL, Cassandra, Kafka, RabbitMQ, GraphQL, Prosper API, Docker, git, PyCharm, Linux (Ubuntu)
+
+\subsubsection*{Trounceflow (finances), \textcolor{lightgray}{www.trounceflow.com}, Python Team Leader, Dec 2016 -- May 2017 (6 months)}
+Managed a team of Python developers and refactored a web scraping backend for financial data analysis application.\\
+\textbf{Client's feedback:} \textit{"Dmitry is a very strong developer and a good communicator. Thank you Dmitry!"}
+\chrule
+Python 3.5, Django 1.10, PostgreSQL, SQLITE3, Schematics, HTML, PDF and XLS/XLSX data scraping and parsing, Heroku, AWS S3, git, PyCharm, Linux (Ubuntu)
+
+\subsubsection*{Semilimes (SaaS ERP), Senior Python Developer, Oct 2017 -- Jan 2017 (4 months)}
+Developed backend and frontend of SaaS ERP on-boarding questionnaire with Flask and SQLAlchemy.\\
+\textbf{Client's feedback:} 5 stars
+\chrule
+Python 2.7, Python 3.5, Tryton, Flask, Django, Django REST Framework, Jinja2, HTML, JavaScript, CSS, jQuery, JSON-RPC, XML, Werkzeug, git, PyCharm, Linux (Ubuntu)
+
+\subsubsection*{Carpe (finances), \itchref{https://www.carpe.com}{www.carpe.com}, Senior Python Developer, Jul 2016 -- Jan 2017 (7 months)}
+Developed a high performance Falcon-based and ZeroRPC-based backend servers for a personal finance management company.\\
+\textbf{Client's feedback:} \textit{"Dmitry is an experienced Python developer, with great English skills too (among the best I've seen on Upwork), so you can have a Skype call and discuss plans quickly instead of writing long emails. He can do complex projects that many other developers would have difficulty with. Good developer, would recommend to others."}
+\chrule
+Python 2.7, Python 3.5, PyPy2.7, Cython, Lua, JavaScript, SQL, JSON, MessagePack, HTML, Falcon, gevent, gunicorn, uWSGI, SQLAlchemy, Alembic, Schematics, PeeWee, PostgreSQL 9.5, Redis, ZeroMQ, ZeroRPC, Linux (Ubuntu), AWS EC2/S3, nginx, Supervisor, boto3, git, PyCharm, Asana, unittest, pytest
+
+\subsubsection*{Diamond Mine (bioinformatics), \textcolor{lightgray}{diamondmine.io}, Senior Python Developer, Jun 2016 -- Nov 2016 (6 months)}
+Developed backend and frontend for a web application to find correlation in user submitted blood samples data to help finding a cure for diabetes.\\
+\textbf{Client's feedback:} \textit{"Dmitry's English is perfect. His commitment to the project was exemplary for a contractor. Notably, he was very capable at implementing new functions in our code base, as well as refactoring code from other contributors. His background in QA really shines through."}
+\chrule
+Python 2.7, Python 3.5, Django 1.9, Celery, pandas, SQL, PostgreSQL, RabbitMQ, MessagePack, nginx, uWSGI, git, PyCharm, Linux (Ubuntu)
+
+\subsection*{Platform T (Uber-like taxi service startup seed funded by SAPRUN, \itchref{https://www.saprun.com}{www.saprun.com}), Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)}
+\begin{itemize}
+    \item Designed a horizontally scalable system architecture of an Uber-like taxi business automation system (4 HTTP REST APIs, WAMP Pubsub API and WAMP RPC API available for 2 Android, iPhone and Desktop applications).
+    \item Established the software development process from scratch based on agile practices.
+    \item Hired the backend development team.
+    \item Performed team leader role of a distributed team (3 locations) of Python backend developers.
+    \item Developed and refactored backend part of the system.
+    \item Participated in the project management to fill the gaps of project manager's experience and skills on managing an agile startup project
+\end{itemize}
+\chrule
+Python 2.7, Django 1.8, Django REST Framework 3.3, Crossbar, Autobahn, Twisted, Tornado, Celery, Asterisk, SQL, PostgreSQL, Redis, RabbitMQ, uWSGI, nginx, Odoo, HTTP, WAMP over WebSockets, SIP, JSON, YAML, HTML / CSS / JavaScript, git, PyCharm, Jira, Jenkins, Ansible, unittest, Behave, Linux (Ubuntu 14.04)
+
+\subsection*{Lamoda (largest Russia and CIS fashion e-commerce company, \itchref{https://www.lamoda.ru}{www.lamoda.ru}), Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)}
+\begin{itemize}
+    \item Developed largest Russia and CIS fashion e-commerce website backend from scratch (as a member of a backend development team): business logic and data access library, SOAP and HTTP/JSON public API and Solr-based full text and faceted search service.
+    \item Implemented feature requests and bug fixes for Lamoda's e-commerce website: backend, frontend, full text and faceted search, data export and import.
+    \item Interviewed python developer candidates.
+    \item Reviewed code and performed release management.
+\end{itemize}
+\chrule
+Python 2.7, SQLAlchemy, Spyne, Tornado, Django, jQuery, SQL, Java, JavaScript, PostgreSQL, MySQL, Solr, Sphinx, Redis, uWSGI, nginx, HTTP, SOAP, JSON, XML, HTML, CSS, git, PyCharm, Jira, Jenkins, maven, Apache Tomcat, Linux (Ubuntu, Debian)
+
+\subsection*{Other}
+\begin{itemize}
+    \item Govoritter, \textcolor{gray}{govoritters.com}, startup project (Python technology stack), Aug 2011 – Mar 2012 (7 months)
+    \item Grid Dynamics, \itchref{https://www.griddynamics.com}{www.griddynamics.com}, QA Lead, Aug 2010 – Aug 2011 (1 year)
+    \item Neoflex, \itchref{https://www.neoflex.ru}{www.neoflex.ru}, Head of Software Testing Department, Feb 2008 – May 2010 (2 years 3 months)
+    \item Google Inc. (contract), \itchref{https://www.google.com}{www.google.com}, Localization Testing Specialist, Jul 2007 – Feb 2008 (8 months)
+    \item Amphora Group, \textcolor{gray}{www.amphora-group.ru}, Senior Quality Engineer, May 2003 – Jul 2007 (4 years 2 months)
+    \item Microtest, \textcolor{gray}{www.microtest.ru}, Test Engineer, Dec 2002 – Mar 2003 (3 months)
+    \item Trinity Logic Corp., \textcolor{gray}{www.tl-c.ru}, Oracle Database Administrator, Developer, Jan 2002 – Dec 2002 (1 year)
+    \item Altyn Ay (Almetyevsk), Programmer, Senior System Administrator, Jul 1996 – May 2001 (4 years 10 months)
+\end{itemize}
+
+\section*{\hypertarget{common-toolset}{Common Toolset}}
+pyenv, Poetry, pytest, Sentry, git, pre-commit, make, shell scripts, flake8, yapf, Black, isort, mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
+
+\section*{Education and Non-technical Skills}
+\begin{itemize}
+    \item June 2006, MSTU "Stankin", Master of Technics and Technology Diploma (with honors)
+    \item Fluent English (IELTS: 7.0, 2009), native Russian, knowledge in accounting and banking, lecturing, presentation and public speaking experience, driving license (cat. B)
+\end{itemize}
+
+\section*{Links}
+\begin{itemize}
+    \setlength{\itemsep}{4pt}
+    \item Upwork profile: \url{https://www.upwork.com/fl/dmugtasimov}
+    \item Stack Overflow: \url{https://stackoverflow.com/users/1952977/dmitry-mugtasimov}
+    \item GitHub: \url{https://github.com/dmugtasimov}
+    \item Open source code (validate authorship of the most of the lines with \texttt{git blame}):
+        \vspace{2pt}  % TODO(dmu) LOW: Find a way to avoid repeating \vspace{2pt}
+        \begin{itemize}
+            \setlength{\itemsep}{2pt}
+            \item \url{https://github.com/thenewboston-developers/Core} (\itchref{https://github.com/dmugtasimov/Core}{fork}, \itchref{https://github.com/dmugtasimov/Core-copy}{copy})
+            \item \url{https://github.com/thenewboston-developers/Node} (\itchref{https://github.com/dmugtasimov/Node}{fork}, \itchref{https://github.com/dmugtasimov/Node-copy}{copy})
+            \item \url{https://github.com/thenewboston-blockchain/thenewboston-node} (\itchref{https://github.com/dmugtasimov/thenewboston-node}{fork}, \itchref{https://github.com/dmugtasimov/thenewboston-node-copy}{copy})
+        \end{itemize}
+    \item YouTube channels:
+        \vspace{2pt}  % TODO(dmu) LOW: Find a way to avoid repeating \vspace{2pt}
+        \begin{itemize}
+            \setlength{\itemsep}{2pt}
+            \item About Python development: \url{https://www.youtube.com/@python-talks-dmitry-mugtasimov}
+            \item About Machine Learning: \url{https://www.youtube.com/@ML-with-Dmitry-Mugtasimov}
+        \end{itemize}
+    \item Technical blog in English: \url{https://dmugtasimov-tech.blogspot.com/}. Notable posts:
+        \vspace{2pt}  % TODO(dmu) LOW: Find a way to avoid repeating \vspace{2pt}
+        \begin{itemize}
+            \setlength{\itemsep}{2pt}
+            \item My Python software development practices: \url{https://dmugtasimov-tech.blogspot.ru/2016/12/my-python-software-development-practices.html}
+            \item Pascal’s Triangle (detailed description of optimization techniques for an academic task from Python code optimization to refactoring to Assembler):\\
+            \url{https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html}
+            \item My closed source repositories statistics: \url{https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html}
+        \end{itemize}
+    \item Publications in Russian:
+        \vspace{2pt}  % TODO(dmu) LOW: Find a way to avoid repeating \vspace{2pt}
+        \begin{itemize}
+            \item Technical blog in Russian: \url{https://dmugtasimov-pro.livejournal.com}
+            \item Habrahabr: \url{https://habrahabr.ru/users/dmugtasimov/topics/}
+            \begin{itemize}
+                % TODO(dmu) MEDIUM: Support Russian and add original Russian names of the articles
+                \item Software development practices of one particular Python-developer, 2014: \url{https://habrahabr.ru/post/233699/}
+                \item About Python import packages and modules search, 2013: \url{https://habrahabr.ru/post/166463/}
+            \end{itemize}
+        \end{itemize}
+    \item LinkedIn: \url{https://www.linkedin.com/in/dmugtasimov/}
+\end{itemize}
+
+\end{document}
