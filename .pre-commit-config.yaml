@@ -1,0 +1,17 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ensure-markdown-resume-up-to-date
+        name: Ensure Markdown resume is up-to-date
+        entry: bash -c 'make generate-markdown && git diff README.md'
+        language: system
+        files: ^src/.*$
+        pass_filenames: false
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: \.svg$|^README\.md$
+      - id: trailing-whitespace
+        exclude: \.svg$|^README\.md$
