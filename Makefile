@@ -3,16 +3,25 @@ src/telegram-logo.svg: ;
 src/pandoc.yaml: ;
 src/pandoc_postprocessor.py: ;
 
-.PHONY: install-prerequisites
-install-prerequisites:
-	sudo apt install texlive texlive-latex-extra pandoc
+.PHONY: install-texlive
+install-texlive:
+	sudo apt install -y texlive texlive-latex-extra
+
+.PHONY: install-pandoc-m4
+install-pandoc-m4:
+	sudo apt install -y pandoc m4
 
 .PHONY: install-pre-commit
 install-pre-commit:
-	pip install pre-commit; pre-commit uninstall; pre-commit install
+	pip install pre-commit
+
+.PHONY: setup-pre-commit
+setup-pre-commit:
+	pre-commit uninstall
+	pre-commit install
 
 .PHONY: install
-install: install-prerequisites install-pre-commit ;
+install: install-texlive install-pandoc-m4 install-pre-commit setup-pre-commit ;
 
 .PHONY: generate-pdf
 generate-pdf: generated/dmugtasimov-resume.pdf

@@ -1,0 +1,32 @@
+name: Quality Assurance
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  quality-assurance:
+    name: Quality Assurance
+
+    runs-on: ubuntu-22.04
+    container: texlive/texlive:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Disable Git's dubious ownership check
+        run: git config --global safe.directory '*'
+
+      # TODO(dmu) LOW: Implement caching
+      - name: Install dependencies
+        run: |
+          apt update
+          apt install -y make sudo git pre-commit
+          make install-pandoc-m4
+          make setup-pre-commit
+
+      - name: Run lint
+        run: make lint
