@@ -1,0 +1,4 @@
+from: latex
+to: html
+css: src/styles.css
+standalone: true

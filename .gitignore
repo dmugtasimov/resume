@@ -1,4 +1,5 @@
 .idea/
-/generated/
+/generated-pdf/
+/generated-html/
 /out/
 /svg-inkscape/
