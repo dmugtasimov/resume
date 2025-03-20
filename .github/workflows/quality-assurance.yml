@@ -10,23 +10,51 @@ jobs:
   quality-assurance:
     name: Quality Assurance
 
-    runs-on: ubuntu-22.04
-    container: texlive/texlive:latest
+    runs-on: ubuntu-24.04
+    container: ubuntu:24.04
 
     steps:
+      - name: Cache APT packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            /var/cache/apt/archives
+            /var/lib/apt/lists
+          key: ${{ runner.os }}-apt-${{ hashFiles('**/Makefile') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-
+
+      - name: Install prerequisites
+        run: |
+          apt update
+          apt install -y --no-install-recommends git make sudo ca-certificates
+
       - name: Checkout repository
         uses: actions/checkout@v4
+#         TODO(dmu) MEDIUM: `fetch-depth` does not seem to work
+#        with:
+#           fetch-depth: 0  # Ensures a full history, necessary for some pre-commit hooks
+
+      - name: Force Git Initialization for pre-commit
+        run: |
+          if [ ! -d .git ]; then
+            echo "No .git directory found! Initializing Git..."
+            git init
+            git remote add origin https://github.com/${{ github.repository }}.git
+            git fetch --unshallow || true
+            git checkout ${{ github.ref_name }}
+          else
+            echo ".git directory found!"
+          fi
 
       - name: Disable Git's dubious ownership check
         run: git config --global safe.directory '*'
 
-      # TODO(dmu) LOW: Implement caching
+      - name: Configure PATH for pipx
+        run: echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
+
       - name: Install dependencies
-        run: |
-          apt update
-          apt install -y make sudo git pre-commit
-          make install-pandoc-m4
-          make setup-pre-commit
+        run: make install
 
       - name: Run lint
         run: make lint
