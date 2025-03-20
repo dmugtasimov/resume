@@ -62,8 +62,10 @@ define('PROCESSOR')
 \section*{Dmitry Mugtasimov}
 \begin{center}
     % TODO(dmu) LOW: Avoid repeating [1pt]
-    \cfontsize{18pt} Senior Python Developer / System Architect / Team Leader\\[1pt]
-    ifelse(PROCESSOR, `pandoc', `Telegram: ', `')\cfontsize{18pt}\chref{https://t.me/dmugtasimov}{@dmugtasimov} \includesvg[height=0.7em]{src/telegram-logo.svg}\\[1pt]
+    \cfontsize{18pt} Senior Python Developer / System Architect / Team Leader
+    ifelse(PROCESSOR, `pandoc', `\\\linebreak', `')\\[1pt]
+    ifelse(PROCESSOR, `pandoc', `Telegram:', `\includesvg[height=0.7em]{src/telegram-logo.svg}') \cfontsize{18pt}\chref{https://t.me/dmugtasimov}{@dmugtasimov}
+    ifelse(PROCESSOR, `pandoc', `\\\linebreak', `')\\[1pt]
     \cfontsize{18pt}\chref{mailto:\email}{\email}
 \end{center}
 

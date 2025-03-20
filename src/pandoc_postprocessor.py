@@ -9,6 +9,7 @@ ITEM_RE = re.compile(r'(^\s*- \S)')
 
 
 def main():
+    # TODO(dmu) MEDIUM: Refactor or add comments explaining how it works
     prev_item_ident = None
     is_prev_title = False
     for line in sys.stdin:
