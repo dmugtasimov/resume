@@ -55,7 +55,7 @@ generated/dmugtasimov-resume.pdf: src/resume.tex src/telegram-logo.svg
 generate-markdown: README.md
 
 README.md: src/resume.tex src/pandoc.yaml src/pandoc_postprocessor.py Makefile
-	-cat src/resume.tex | m4 --define=PROCESSOR=pandoc | pandoc --defaults=src/pandoc.yaml | ./src/pandoc_postprocessor.py > README.md
+	-cat src/resume.tex | m4 --define=PROCESSOR=pandoc | pandoc --defaults=src/pandoc.yaml | ./src/pandoc_postprocessor.py | sed 's/[ \t]*$$//' > README.md
 
 .PHONY: generate-all
 generate-all: generated/dmugtasimov-resume.pdf README.md ;
