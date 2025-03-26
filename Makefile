@@ -72,7 +72,8 @@ tag:
 
 .PHONY: tag-latest
 tag-latest:
-	make tag name=latest
+	# TODO(dmu) MEDIUM: Make it DRY with `tag` target
+	git tag -a -m '' $(name) -f
 
 .PHONY: release
 release:
