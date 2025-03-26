@@ -1,0 +1,50 @@
+name: Setup
+runs:
+  using: "composite"
+  steps:
+    - name: Cache APT packages
+      uses: actions/cache@v4
+      with:
+        path: |
+          /var/cache/apt/archives
+          /var/lib/apt/lists
+        key: ${{ runner.os }}-apt-${{ hashFiles('**/Makefile') }}
+        restore-keys: |
+          ${{ runner.os }}-apt-
+
+    - name: Install prerequisites
+      shell: bash
+      run: |
+        apt update
+        apt install -y --no-install-recommends git make sudo ca-certificates
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+  #         TODO(dmu) MEDIUM: `fetch-depth` does not seem to work
+  #        with:
+  #           fetch-depth: 0  # Ensures a full history, necessary for some pre-commit hooks
+
+    - name: Force Git Initialization for pre-commit
+      shell: bash
+      run: |
+        if [ ! -d .git ]; then
+          echo "No .git directory found! Initializing Git..."
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git fetch --unshallow || true
+          git checkout ${{ github.ref_name }}
+        else
+          echo ".git directory found!"
+        fi
+
+    - name: Disable Git's dubious ownership check
+      shell: bash
+      run: git config --global safe.directory '*'
+
+    - name: Configure PATH for pipx
+      shell: bash
+      run: echo "PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
+
+    - name: Install dependencies
+      shell: bash
+      run: make install
