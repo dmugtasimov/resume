@@ -65,3 +65,18 @@ generate-all: generated/dmugtasimov-resume.pdf README.md ;
 .PHONY: lint
 lint:
 	pre-commit run --all-files
+
+.PHONY: tag
+tag:
+	git tag -a -m '' $(name)
+
+.PHONY: tag-latest
+tag-latest:
+	make tag name=latest
+
+.PHONY: release
+release:
+	make tag name=v$(version)
+	make tag-latest
+	git push origin v$(version)
+	git push latest -f
