@@ -20,6 +20,7 @@ install-texlive:
 		texlive-latex-recommended=2023.20240207-1 \
 		texlive-pictures=2023.20240207-1 \
 		texlive-plain-generic=2023.20240207-1
+	sudo apt install -y inkscape=1.2.2-2ubuntu12
 
 .PHONY: install-pandoc-m4
 install-pandoc-m4:
@@ -49,7 +50,8 @@ generate-pdf: generated/dmugtasimov-resume.pdf
 
 generated/dmugtasimov-resume.pdf: src/resume.tex src/telegram-logo.svg
 	mkdir -p generated
-	-cat src/resume.tex | m4 --define=PROCESSOR=pdflatex | pdflatex -shell-escape -jobname=generated/dmugtasimov-resume
+	-cat src/resume.tex | m4 --define=PROCESSOR=pdflatex > /tmp/resume.tex
+	pdflatex -shell-escape -jobname=generated/dmugtasimov-resume /tmp/resume.tex
 
 .PHONY: generate-markdown
 generate-markdown: README.md

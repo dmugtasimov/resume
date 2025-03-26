@@ -15,8 +15,8 @@ runs:
     - name: Install prerequisites
       shell: bash
       run: |
-        apt update
-        apt install -y --no-install-recommends git make sudo ca-certificates
+        sudo apt update
+        sudo apt install -y --no-install-recommends git make sudo ca-certificates
 
     - name: Checkout repository
       uses: actions/checkout@v4

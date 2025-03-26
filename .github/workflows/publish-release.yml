@@ -1,0 +1,37 @@
+name: Publish Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+      - latest
+
+jobs:
+  publish-release:
+    name: Publish Release
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run shared setup
+        uses: ./.github/actions/setup
+
+      - name: Generate PDF
+        run: make generate-pdf
+
+      - name: Set resume metadata
+        id: resume_metadata
+        run: echo 'path=generated/dmugtasimov-resume.pdf' >> $GITHUB_OUTPUT
+
+      - name: Check if resume PDF exists
+        run: test -f '${{ steps.resume_metadata.outputs.path }}'
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          files: ${{ steps.resume_metadata.outputs.path }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
