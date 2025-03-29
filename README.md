@@ -5,13 +5,13 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 <dmugtasimov@gmail.com>
 
-***Top Rated Plus** and **Expert-Vetted** ● **6500+ hours** and **28 jobs** worked at Upwork
+***Top Rated Plus** and **Expert-Vetted** ● **7300+ hours** and **31 jobs** worked at Upwork
 100% Job Success Score ● Outstanding feedback from clients ● Fluent English*
 
 ## Professional Experience
-26 years of experience in software engineering, with overlapping roles:
+27 years of software engineering experience, with overlapping roles:
 
--   13 years in Python development (plus 4 years in other programming languages)
+-   14 years in Python development (plus 4 years in other programming languages)
 
 -   8 years in managerial positions
 
@@ -20,22 +20,34 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   5 years in system administration
 
 ### Freelance, Jun 2016 – now (over 8 years)
-#### ReturnZap (returns Shopify application), [*returnzap.com*](https://returnzap.com), Senior Python Developer, Jul 2023 – now (over 1 year)
+#### ReturnZap (returns Shopify application), USA, [*returnzap.com*](https://returnzap.com), Senior Python Developer, Jul 2023 – now (over 1 year)
 -   Implemented new features and enhancements on the existing codebase of the Shopify application
     for submitting and managing e-commerce returns.
 
--   Python 3.10, Django 3.2, Celery, Graphene, React, PostgreSQL, Redis, GraphQL, Shopify API,
-    Easypost API, Shippo API, Sendcloud API, gunicorn and a [common toolset](#common-toolset)
+-   [Python](https://www.python.org/) 3.10, [Django](https://www.djangoproject.com/) 4.2,
+    [Celery](https://docs.celeryq.dev/), [Graphene](https://graphene-python.org/),
+    [React](https://react.dev/), [PostgreSQL](https://www.postgresql.org/),
+    [Redis](https://redis.io/), [GraphQL](https://graphql.org/), [Shopify
+    API](https://shopify.dev/docs/api), [Easypost API](https://docs.easypost.com/), [Shippo
+    API](https://docs.goshippo.com/), [Sendcloud API](https://api.sendcloud.dev/),
+    [gunicorn](https://gunicorn.org/) and most of the technologies from [primary technology
+    stack](#primary-technology-stack)
 
-#### Openrent (car rental), Senior Python Developer, May 2023 – now (over 1 year)
--   Developed a car photo management software. Supported, maintained, and added more features to a
-    car business process management Telegram bot.
+#### Openrent (car rental), France, Senior Python Developer, May 2023 – now (over 1 year)
+-   Developed a car photo management system. Maintained and enhanced a Telegram bot for managing
+    car-related business processes.
 
--   Python 3.11, PostgreSQL, SQL, Dropbox API, Telegram API, Plate Recognizer API, Getaround API,
-    Pennylane API, JPEG and EXIF, AWS (EC2, RDS, Lambda, API Gateway) and a [common
-    toolset](#common-toolset)
+-   [Python](https://www.python.org/) 3.11, [PostgreSQL](https://www.postgresql.org/), [Dropbox
+    API](https://www.dropbox.com/developers/), [Telegram bot
+    integration](https://python-telegram-bot.org/), [Plate Recognizer
+    API](https://guides.platerecognizer.com/docs/snapshot/api-reference/), [Getaround
+    API](https://getaround.com/docs/api/owner/v1), [Pennylane API](https://pennylane.readme.io/),
+    [JPEG](https://jpeg.org/) and [EXIF](https://en.wikipedia.org/wiki/Exif), AWS
+    [EC2](https://aws.amazon.com/ec2/), [RDS](https://aws.amazon.com/rds/),
+    [Lambda](https://aws.amazon.com/lambda/), [API Gateway](https://aws.amazon.com/api-gateway/) and
+    most of the technologies from [primary technology stack](#primary-technology-stack)
 
-#### thenewboston (blockchain), [*thenewboston.com*](https://thenewboston.com), Team Leader / Senior Python Developer, Feb 2021 – now (2+ years excluding gaps)
+#### thenewboston (blockchain), USA, [*thenewboston.com*](https://thenewboston.com), Team Leader / Senior Python Developer, Feb 2021 – now (2+ years excluding gaps)
 -   Developed distributed proof of stake blockchain-based cryptocurrency – TNBC, distributed
     communication backend, and Python client-side library.
 
@@ -61,9 +73,9 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     PostgreSQL, Redis, RabbitMQ, OpenAI API (chat completion, image generation), PromptLayer API,
     WebSockets, MessagePack, daphne, AWS (EC2, Route 53) and a [common toolset](#common-toolset)
 
-#### ShyftOff (call center outsourcer), [*shyftoff.com*](https://shyftoff.com), Senior Python Developer, Jun 2023 – May 2024 (1 year)
--   Developed a call center agent facing software: agent performance stats, campaign application and
-    workflow, payment information, notifications, etc.
+#### ShyftOff (call center outsourcer), USA, [*shyftoff.com*](https://shyftoff.com), Senior Python Developer, Jun 2023 – May 2024 (1 year)
+-   Developed agent-facing call center software, including performance metrics, campaign workflows,
+    payment details, and notifications.
 
 -   **Client’s feedback:** *"Dmitry brings a lot of experience and talent to deliver solutions
     quickly! He understands software engineering at a deep technical level and doesn’t turn down a
@@ -73,14 +85,14 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     PostgreSQL, OpenAI API (embeddings, chat completion), Twilio API (calls, SMS), WebSockets,
     uvicorn, Terraform, AWS (ECS, RDS, Lambda, Cognito) and a [common toolset](#common-toolset)
 
-#### Suno Software Inc. (healthcare: audiology), [*suno.tech*](https://suno.tech), Team Leader / Senior Python Developer, Jul 2022 – Mar 2023 (8 months)
+#### Suno Software Inc. (audiology), USA, [*suno.tech*](https://suno.tech), Team Leader / Senior Python Developer, Jul 2022 – Mar 2023 (8 months)
 -   Developed audiology clinics business process automation SaaS.
 
 -   Python 3.10, Django, Django REST framework, Django Channels, Celery, Pydantic, PostgreSQL,
     Twilio API, Tilled API, JustiFi API, Claim.md API, Box API, daphne, AWS (RDS, ECS, SES, CDK) and
     a [common toolset](#common-toolset)
 
-#### Lehner Investments (trading), `lehnerinvestments.com`, **Senior Python Developer**, Aug 2020 – Apr 2022 (1 year 8 months)
+#### Lehner Investments (trading), Germany, `lehnerinvestments.com`, **Senior Python Developer**, Aug 2020 – Apr 2022 (1 year 8 months)
 -   Developed microservice architecture (9 microservices) mutual fund trading system backend.
 
 -   **Client’s feedback:** *"It was a pleasure to work with Dmitry. He was extremely helpful in
@@ -92,25 +104,25 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.9, nameko, Django, Django REST framework, PostgreSQL, RabbitMQ, pandas, numpy, SendGrid
     API, WebSockets, socket.io and a [common toolset](#common-toolset)
 
-#### The Convenience App (e-commerce retail application), Senior Python Developer, Mar 2021 – Feb 2022 (1 year)
--   Developed a REST API backend for mobile (Android and iOS) curbside pickup application.
+#### The Convenience App (e-commerce retail application), USA, Senior Python Developer, Mar 2021 – Feb 2022 (1 year)
+-   Created a REST API backend for a mobile curbside pickup app (Android and iOS).
 
 -   **Client’s feedback:** 5 stars
 
 -   Python 3.9, Django, Django REST Framework, Celery, PostgreSQL, Stripe API, SendGrid API, Twilio
     API, Google Maps API, gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
 
-#### Medical Device Risks (healthcare), Senior Python Developer, Aug 2020 – Jul 2021 (1 year)
--   Developed a REST API backend for medical device risks management single page application.
+#### Medical Device Risks (healthcare), USA, Senior Python Developer, Aug 2020 – Jul 2021 (1 year)
+-   Built a REST API backend for a single-page application managing medical device risks.
 
 -   **Client’s feedback:** *"Brilliant Engineer to work with. Highly recommended"*
 
 -   Python 3.8, Django, Django REST Framework, Celery, PostgreSQL, Full-text search, SendGrid API,
     gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
 
-#### 7 Cheetahs (automated trading), [*7cheetahs.com*](https://7cheetahs.com), Team Leader / Senior Python Developer, Aug 2019 – Apr 2020 (9 months)
--   Refactored to microservice architecture and developed a futures trading system. Managed a remote
-    team of 5 python developers. Designed new scalable higher performance architecture.
+#### 7 Cheetahs (automated trading), Canada, [*7cheetahs.com*](https://7cheetahs.com), Team Leader / Senior Python Developer, Aug 2019 – Apr 2020 (9 months)
+-   Refactored to a microservice architecture and developed a futures trading system. Managed a
+    remote team of 5 python developers. Designed new scalable higher performance architecture.
 
 -   **Client’s feedback:** *"Dmitry is an all-star. You won’t find a better developer on Upwork,
     period. He communicates well, has tons of experience, will bring a deep understanding of
@@ -121,8 +133,8 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.7, Django, MongoDB, PostgreSQL, logstash (ELK), RabbitMQ, pandas, numpy, IQFeed API,
     InteractiveBrokers API, nginx, uWSGI, git, pytest, Jenkins, PyCharm, Linux (Ubuntu), Windows
 
-#### Dolphin, Inc. (job search), `splashwithdolphin.com`, Senior Python Developer, Feb 2019 – Jan 2021 (1 year 11 months)
--   Developed a REST API backend for iOS job search and recommendation application.
+#### Dolphin, Inc. (job search), USA, `splashwithdolphin.com`, Senior Python Developer, Feb 2019 – Jan 2021 (1 year 11 months)
+-   Built a REST API backend for a job search and recommendation for an iOS app.
 
 -   **Client’s feedback:** *"It’s always a pleasure working with Dmitry. Amazing work as usual"*
 
@@ -130,17 +142,17 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     RabbitMQ, HTML / CSS/ JavaScript / jQuery, gunicorn, Heroku, AWS S3, SendGrid API, pipenv,
     pylint and a [common toolset](#common-toolset)
 
-#### we love data sp. z o.o (email marketing), Database Developer, Jan 2019 – Sep 2019 (9 months)
--   Database structure and SQL-queries optimization for email subscription service with about 40
-    million subscribers.
+#### we love data sp. z o.o (email marketing, Poland), Database Developer, Jan 2019 – Sep 2019 (9 months)
+-   Optimized database schema and SQL queries for an email subscription service with approximately
+    40 million subscribers.
 
 -   **Client’s feedback:** 5 stars
 
 -   PostgreSQL 11, SQL
 
-#### Packy (network monitoring), **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
--   Implemented 3 backend components (REST API server, WAMP / WebSockets API server, monitoring
-    agent) of distributed network monitoring system.
+#### Packy (network monitoring), New Zeland, **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
+-   Developed three backend components (REST API server, WAMP / WebSockets API server, monitoring
+    agent) for a distributed network monitoring system.
 
 -   **Client’s feedback:** *"Dmitry is a very highly skilled developer with second-to-none attention
     to detail. Dmitry has brought our project to the next-level and we look forward to working with
@@ -151,8 +163,8 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     protocols), Raspbian, Armbian, Raspberry Pi 3 Model B/B+, Orange Pi Zero, AWS (EC2, RDS, S3,
     ElastiCache, SES) and a [common toolset](#common-toolset)
 
-#### CreditSCRIPT (finances), [*www.creditscript.com*](https://www.creditscript.com), Senior Python Developer, Jan 2017 – Sep 2017 (9 months)
--   Developed 10 high performance loan bidding micro-services integrated via Kafka bus.
+#### CreditSCRIPT (finances), Madagascar / UK, [*www.creditscript.com*](https://www.creditscript.com), Senior Python Developer, Jan 2017 – Sep 2017 (9 months)
+-   Developed 10 high-performance loan bidding microservices integrated via Kafka.
 
 -   **Client’s feedback:** *"Excellent senior python developer. Architected, developed and delivered
     a complicated project for us. Look forward to co-operating in future."*
@@ -161,8 +173,8 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     Schematics, gevent, asynchronous programming, PostgreSQL, MySQL, Cassandra, Kafka, RabbitMQ,
     GraphQL, Prosper API, Docker, git, PyCharm, Linux (Ubuntu)
 
-#### Trounceflow (finances), `www.trounceflow.com`, Python Team Leader, Dec 2016 – May 2017 (6 months)
--   Managed a team of Python developers and refactored a web scraping backend for financial data
+#### Trounceflow (finances), UK, `www.trounceflow.com`, Python Team Leader, Dec 2016 – May 2017 (6 months)
+-   Managed a team of Python developers and refactored the web scraping backend for financial data
     analysis application.
 
 -   **Client’s feedback:** *"Dmitry is a very strong developer and a good communicator. Thank you
@@ -171,7 +183,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.5, Django 1.10, PostgreSQL, SQLITE3, Schematics, HTML, PDF and XLS/XLSX data scraping
     and parsing, Heroku, AWS S3, git, PyCharm, Linux (Ubuntu)
 
-#### Semilimes (SaaS ERP), Senior Python Developer, Oct 2017 – Jan 2017 (4 months)
+#### Semilimes (SaaS ERP), Switzerland, Senior Python Developer, Oct 2017 – Jan 2017 (4 months)
 -   Developed backend and frontend of SaaS ERP on-boarding questionnaire with Flask and
     SQLAlchemy.
 
@@ -180,9 +192,9 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 2.7, Python 3.5, Tryton, Flask, Django, Django REST Framework, Jinja2, HTML, JavaScript,
     CSS, jQuery, JSON-RPC, XML, Werkzeug, git, PyCharm, Linux (Ubuntu)
 
-#### Carpe (finances), [*www.carpe.com*](https://www.carpe.com), Senior Python Developer, Jul 2016 – Jan 2017 (7 months)
--   Developed a high performance Falcon-based and ZeroRPC-based backend servers for a personal
-    finance management company.
+#### Carpe (finances), USA, [*www.carpe.com*](https://www.carpe.com), Senior Python Developer, Jul 2016 – Jan 2017 (7 months)
+-   Created high-performance backend servers using Falcon and ZeroRPC for a personal finance
+    management platform.
 
 -   **Client’s feedback:** *"Dmitry is an experienced Python developer, with great English skills
     too (among the best I’ve seen on Upwork), so you can have a Skype call and discuss plans quickly
@@ -194,9 +206,9 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     ZeroRPC, Linux (Ubuntu), AWS EC2/S3, nginx, Supervisor, boto3, git, PyCharm, Asana, unittest,
     pytest
 
-#### Diamond Mine (bioinformatics), `diamondmine.io`, Senior Python Developer, Jun 2016 – Nov 2016 (6 months)
--   Developed backend and frontend for a web application to find correlation in user submitted blood
-    samples data to help finding a cure for diabetes.
+#### Diamond Mine (bioinformatics), USA, `diamondmine.io`, Senior Python Developer, Jun 2016 – Nov 2016 (6 months)
+-   Built backend and frontend for a web application that analyzes correlations in user-submitted
+    blood sample data to aid diabetes research.
 
 -   **Client’s feedback:** *"Dmitry’s English is perfect. His commitment to the project was
     exemplary for a contractor. Notably, he was very capable at implementing new functions in our
@@ -206,10 +218,10 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 2.7, Python 3.5, Django 1.9, Celery, pandas, SQL, PostgreSQL, RabbitMQ, MessagePack,
     nginx, uWSGI, git, PyCharm, Linux (Ubuntu)
 
-### Platform T (Uber-like taxi service startup seed funded by SAPRUN, [*www.saprun.com*](https://www.saprun.com)), Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)
--   Designed a horizontally scalable system architecture of an Uber-like taxi business automation
-    system (4 HTTP REST APIs, WAMP Pubsub API and WAMP RPC API available for 2 Android, iPhone and
-    Desktop applications).
+### Platform T (Uber-like taxi service startup seed funded by SAPRUN), Russia / Moscow, [*www.saprun.com*](https://www.saprun.com), Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)
+-   Designed a horizontally scalable architecture for an Uber-like taxi automation platform (4 HTTP
+    REST APIs, WAMP Pubsub API and WAMP RPC API available for 2 Android, iPhone and Desktop
+    applications).
 
 -   Established the software development process from scratch based on agile practices.
 
@@ -227,7 +239,7 @@ Asterisk, SQL, PostgreSQL, Redis, RabbitMQ, uWSGI, nginx, Odoo, HTTP, WAMP over 
 JSON, YAML, HTML / CSS / JavaScript, git, PyCharm, Jira, Jenkins, Ansible, unittest, Behave, Linux
 (Ubuntu 14.04)
 
-### Lamoda (largest Russia and CIS fashion e-commerce company, [*www.lamoda.ru*](https://www.lamoda.ru)), Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)
+### Lamoda (largest Russia and CIS fashion e-commerce company), Russia / Moscow, [*www.lamoda.ru*](https://www.lamoda.ru), Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)
 -   Developed largest Russia and CIS fashion e-commerce website backend from scratch (as a member of
     a backend development team): business logic and data access library, SOAP and HTTP/JSON public
     API and Solr-based full text and faceted search service.
@@ -244,28 +256,28 @@ Solr, Sphinx, Redis, uWSGI, nginx, HTTP, SOAP, JSON, XML, HTML, CSS, git, PyChar
 maven, Apache Tomcat, Linux (Ubuntu, Debian)
 
 ### Other
--   Govoritter, `govoritter.com`, startup project (Python technology stack), Aug 2011 – Mar 2012 (7
-    months)
+-   Govoritter, Russia / Moscow, `govoritter.com`, startup project (Python technology stack), Aug
+    2011 – Mar 2012 (7 months)
 
--   Grid Dynamics, [*www.griddynamics.com*](https://www.griddynamics.com), QA Lead, Aug 2010 – Aug
-    2011 (1 year)
+-   Grid Dynamics, Russia / Moscow / USA, [*www.griddynamics.com*](https://www.griddynamics.com), QA
+    Lead, Aug 2010 – Aug 2011 (1 year)
 
--   Neoflex, [*www.neoflex.ru*](https://www.neoflex.ru), Head of Software Testing Department, Feb
-    2008 – May 2010 (2 years 3 months)
+-   Neoflex, Russia / Moscow, [*www.neoflex.ru*](https://www.neoflex.ru), Head of Software Testing
+    Department, Feb 2008 – May 2010 (2 years 3 months)
 
--   Google Inc. (contract), [*www.google.com*](https://www.google.com), Localization Testing
-    Specialist, Jul 2007 – Feb 2008 (8 months)
+-   Google Inc. (contract), Russia / Moscow / USA, [*www.google.com*](https://www.google.com),
+    Localization Testing Specialist, Jul 2007 – Feb 2008 (8 months)
 
--   Amphora Group, `www.amphora-group.ru`, Senior Quality Engineer, May 2003 – Jul 2007 (4 years 2
-    months)
+-   Amphora Group, Russia / Moscow, `www.amphora-group.ru`, Senior Quality Engineer, May 2003 – Jul
+    2007 (4 years 2 months)
 
--   Microtest, `www.microtest.ru`, Test Engineer, Dec 2002 – Mar 2003 (3 months)
+-   Microtest, Russia / Moscow, `www.microtest.ru`, Test Engineer, Dec 2002 – Mar 2003 (3 months)
 
--   Trinity Logic Corp., `www.tl-c.ru`, Oracle Database Administrator, Developer, Jan 2002 – Dec
-    2002 (1 year)
+-   Trinity Logic Corp., Russia / Moscow, `www.tl-c.ru`, Oracle Database Administrator, Developer,
+    Jan 2002 – Dec 2002 (1 year)
 
--   Altyn Ay (Almetyevsk), Programmer, Senior System Administrator, Jul 1996 – May 2001 (4 years 10
-    months)
+-   Altyn Ay, Russia / Almetyevsk, Programmer, Senior System Administrator, Jul 1996 – May 2001 (4
+    years 10 months)
 
 ## Common Toolset
 pyenv, Poetry, pytest, Sentry, git, pre-commit, make, shell scripts, flake8, yapf, Black, isort,
@@ -313,7 +325,7 @@ mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
         Python code optimization to refactoring to Assembler):
         <https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html>
 
-    -   My closed source repositories statistics:
+    -   Statistics from my closed-source repositories:
         <https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html>
 
 -   Publications in Russian:
@@ -329,3 +341,196 @@ mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
             <https://habrahabr.ru/post/166463/>
 
 -   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>
+
+## Annex A: Technology Stacks
+This section describes technologies I have experience with.
+
+### Primary Technology Stack
+This is my default choice of technologies.
+
+-   Development tools
+
+    -   [Python](https://www.python.org/)
+
+    -   [SQL](https://en.wikipedia.org/wiki/SQL)
+
+    -   [Markdown](https://www.markdownguide.org/)
+
+    -   [git](https://git-scm.com/)
+
+    -   [GitHub](https://github.com/)
+
+    -   [PyCharm](https://www.jetbrains.com/pycharm/) with [GitHub
+        Copilot](https://github.com/features/copilot)
+
+    -   [pyenv](https://github.com/pyenv/pyenv)
+
+    -   [Poetry](https://python-poetry.org/)
+
+-   [PostgreSQL](https://www.postgresql.org/)
+
+-   [RabbitMQ](https://www.rabbitmq.com/)
+
+-   [ChatGPT](https://chatgpt.com/)
+
+-   Frameworks
+
+    -   [Django](https://www.djangoproject.com/)
+
+    -   [FastAPI](https://fastapi.tiangolo.com/)
+
+    -   [Celery](https://docs.celeryq.dev/)
+
+    -   [SQLAlchemy](https://www.sqlalchemy.org/)
+
+-   [PostgreSQL](https://www.postgresql.org/)
+
+-   [RabbitMQ](https://www.rabbitmq.com/)
+
+-   Development environment tools
+
+    -   [Linux Mint](https://linuxmint.com/)
+
+    -   [bash](https://www.gnu.org/software/bash/) and shell scripts
+
+    -   [make](https://www.gnu.org/software/make/manual/make.html)
+
+    -   [Docker](https://www.docker.com/)
+
+    -   [Docker Compose](https://docs.docker.com/compose/)
+
+    -   [GitHub Actions](https://github.com/features/actions)
+
+-   Linters, type checkers and formatters
+
+    -   [pre-commit](https://pre-commit.com/)
+
+    -   [Ruff](https://docs.astral.sh/ruff/)
+
+-   Testing tools
+
+    -   [pytest](https://docs.pytest.org/)
+
+    -   [mock](https://docs.python.org/3/library/unittest.mock.html) object library
+
+    -   [Model Bakery](https://model-bakery.readthedocs.io/)
+
+    -   [vcrpy](https://vcrpy.readthedocs.io/)
+
+-   [Linear](https://linear.app/)
+
+-   Deployment and production environment tools
+
+    -   AWS [ECS](https://aws.amazon.com/ecs/), [EC2](https://aws.amazon.com/ec2/),
+        [RDS](https://aws.amazon.com/rds/)
+
+    -   [Heroku](https://www.heroku.com/)
+
+    -   Cloud hosted virtual machines (like
+        [Droplets](https://docs.digitalocean.com/products/droplets/)) with [Docker
+        Compose](https://docs.docker.com/compose/)
+
+    -   [Ubuntu](https://ubuntu.com/)
+
+    -   [Debian](https://www.debian.org/)
+
+    -   [Alpine](https://alpinelinux.org/)
+
+    -   [Sentry](https://sentry.io/)
+
+    -   [Datadog](https://www.datadoghq.com/)
+
+### Extra and Alternative Technology Stack
+These are alternative and extra technologies I work with in special cases.
+
+-   CPython alternatives
+
+    -   [PyPy](https://pypy.org/)
+
+    -   [Cython](https://cython.org/)
+
+    -   [Numba](https://numba.pydata.org/)
+
+-   Markup languages
+
+    -   [reStructuredText](https://docutils.sourceforge.io/rst.html)
+
+    -   [LaTeX](https://www.latex-project.org/)
+
+    -   [HTML](https://www.w3.org/TR/2011/WD-html5-20110405/)
+
+    -   [CSS](https://www.w3.org/Style/CSS/specs.en.html)
+
+-   Databases and similar services
+
+    -   [Redis](https://redis.io/)
+
+    -   [MongoDB](https://www.mongodb.com/)
+
+    -   [MySQL](https://www.mysql.com/)
+
+    -   [MariaDB](https://mariadb.org/)
+
+    -   [Elasticsearch](https://www.elastic.co/elasticsearch)
+
+-   Task management tools
+
+    -   [Trello](https://trello.com/)
+
+    -   [GitHub
+        Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+
+    -   [GitHub Issues](https://github.com/features/issues)
+
+-   Frameworks
+
+    -   [Flask](https://flask.palletsprojects.com/)
+
+    -   [nameko](https://www.nameko.io/)
+
+-   [pip](https://pypi.org/project/pip/)
+
+-   [mypy](https://mypy-lang.org/)
+
+-   [pylint](https://www.pylint.org/)
+
+-   [DeepSeek](https://www.deepseek.com/)
+
+-   [React](https://react.dev/)
+
+-   [Render](https://render.com/)
+
+-   [Sphinx](https://sphinxsearch.com/) search engine
+
+### Experimental Technology Stack
+### Deprecated Technology Stack
+These are technologies I prefer to avoid because of being outdated, having better alternatives or
+just not good enough.
+
+-   Python dependencies management tools
+
+    -   easy\_install
+
+    -   [setup.py](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#setup-py)
+
+    -   [Buildout](https://www.buildout.org/)
+
+    -   [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+
+    -   [Pipenv](https://pypi.org/project/pipenv/)
+
+-   Linters and formatters
+
+    -   [flake8](https://flake8.pycqa.org/)
+
+    -   [yapf](https://github.com/google/yapf)
+
+    -   [Black](https://black.readthedocs.io/)
+
+    -   [isort](https://pycqa.github.io/isort/)
+
+-   Task management tools
+
+    -   [Jira](https://www.atlassian.com/software/jira)
+
+    -   [asana](https://asana.com/)

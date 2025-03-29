@@ -51,7 +51,7 @@ generate-pdf: generated/dmugtasimov-resume.pdf
 generated/dmugtasimov-resume.pdf: src/resume.tex src/telegram-logo.svg
 	mkdir -p generated
 	-cat src/resume.tex | m4 --define=PROCESSOR=pdflatex > /tmp/resume.tex
-	pdflatex -shell-escape -jobname=generated/dmugtasimov-resume /tmp/resume.tex
+	pdflatex -interaction=nonstopmode -shell-escape -jobname=generated/dmugtasimov-resume /tmp/resume.tex
 
 .PHONY: generate-markdown
 generate-markdown: README.md
