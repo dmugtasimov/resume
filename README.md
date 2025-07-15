@@ -5,13 +5,13 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 <dmugtasimov@gmail.com>
 
-***Top Rated Plus** and **Expert-Vetted** ● **6500+ hours** and **28 jobs** worked at Upwork
+***Top Rated Plus** and **Expert-Vetted** ● **7300+ hours** and **32 jobs** worked at Upwork
 100% Job Success Score ● Outstanding feedback from clients ● Fluent English*
 
 ## Professional Experience
-26 years of experience in software engineering, with overlapping roles:
+27 years of software engineering experience, with overlapping roles:
 
--   13 years in Python development (plus 4 years in other programming languages)
+-   14 years in Python development (plus 4 years in other programming languages)
 
 -   8 years in managerial positions
 
@@ -19,15 +19,25 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   5 years in system administration
 
-### Freelance, Jun 2016 – now (over 8 years)
-#### ReturnZap (returns Shopify application), [*returnzap.com*](https://returnzap.com), Senior Python Developer, Jul 2023 – now (over 1 year)
+### Freelance, Jun 2016 – now (over 9 years)
+#### ceet AI (AI-powered legal document recommendation system), Germany, Senior Python Developer, Sep 2024 – now (over 10 months)
+-   Developed a backend for user preference AI-powered semantic search (embeddings) based legal
+    documents matching system.
+
+-   Python 3.12, Django, Django REST framework, FastAPI, PostgreSQL, Redis, Qdrant, Traefik, OpenAI
+    API (Chat Completion, Responses, Assistant) and a [common toolset](#common-toolset)
+
+#### ReturnZap (returns Shopify application), [*returnzap.com*](https://returnzap.com), USA, Senior Python Developer, Jul 2023 – now (over 2 years)
+-   Implemented new features and enhancements on the existing codebase of the Shopify application
+    for submitting and managing e-commerce returns.
+
 -   Implemented new features and enhancements on the existing codebase of the Shopify application
     for submitting and managing e-commerce returns.
 
 -   Python 3.10, Django 3.2, Celery, Graphene, React, PostgreSQL, Redis, GraphQL, Shopify API,
     Easypost API, Shippo API, Sendcloud API, gunicorn and a [common toolset](#common-toolset)
 
-#### Openrent (car rental), Senior Python Developer, May 2023 – now (over 1 year)
+#### Openrent (car rental), France, Senior Python Developer, May 2023 – now (over 2 years)
 -   Developed a car photo management software. Supported, maintained, and added more features to a
     car business process management Telegram bot.
 
@@ -35,7 +45,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     Pennylane API, JPEG and EXIF, AWS (EC2, RDS, Lambda, API Gateway) and a [common
     toolset](#common-toolset)
 
-#### thenewboston (blockchain), [*thenewboston.com*](https://thenewboston.com), Team Leader / Senior Python Developer, Feb 2021 – now (2+ years excluding gaps)
+#### thenewboston (blockchain), [*thenewboston.com*](https://thenewboston.com), USA, Team Leader / Senior Python Developer, Feb 2021 – now (2+ years excluding gaps)
 -   Developed distributed proof of stake blockchain-based cryptocurrency – TNBC, distributed
     communication backend, and Python client-side library.
 
@@ -53,15 +63,46 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
         [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy))
 
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
+
 -   **Client’s feedback:** *"Dmitry was one of the best developers we have ever worked with. Quality
     of work was excellent, communication was great, and he is extremely knowledgeable in many areas
     of software development. Highly recommended!"*
 
--   Python 3.10, Django, Django REST framework, Django Channels, Djongo, Celery, Pydantic, MongoDB,
+-   Python 3.13, Django, Django REST framework, Django Channels, Djongo, Celery, Pydantic, MongoDB,
     PostgreSQL, Redis, RabbitMQ, OpenAI API (chat completion, image generation), PromptLayer API,
     WebSockets, MessagePack, daphne, AWS (EC2, Route 53) and a [common toolset](#common-toolset)
 
-#### ShyftOff (call center outsourcer), [*shyftoff.com*](https://shyftoff.com), Senior Python Developer, Jun 2023 – May 2024 (1 year)
+#### PromptLayer (workbench for AI engineering), [*promptlayer.com*](https://promptlayer.com), USA, Senior Python Developer / DevOps, Oct 2024 – May 2025 (7 months)
+-   Performance optimization of high-load system under heavy load while maintaining zero downtime
+    performance upgrades.
+
+-   **Client’s feedback:** *"Dmitry is a genuine 10x engineer who consistently helped us break
+    through our most difficult problems. A true gem. His methodical approach to problem-solving is
+    exceptional - he breaks down complex challenges into manageable components with remarkable
+    clarity. Something some people who call themselves "engineers" are not able to do. His technical
+    expertise in Python, infrastructure, and databases is truly outstanding. When our startup began
+    experiencing significant scaling issues, Dmitry’s deep knowledge proved invaluable. He not only
+    identified bottlenecks but implemented robust solutions that dramatically improved our system
+    performance. Dmitry has a refreshing sharp, no-nonsense approach. He consistently presents
+    multiple viable solutions to challenging problems and executes them efficiently. He elevated our
+    entire team’s capabilities by setting high standards and sharing his expertise generously. He
+    quickly became someone the team trusted deeply and learned from constantly. I would not hesitate
+    to work with Dmitry again and cannot recommend him highly enough for technically complex
+    projects requiring exceptional problem-solving skills."*
+
+-   Python 3.12, Flask, SQLAlchemy, RQ, Celery, PostgreSQL, SQL, Redis, Render and a [common
+    toolset](#common-toolset)
+
+#### Guidable (AI-powered eduction platform), USA, Senior Python Developer, Sep 2024 – Oct 2024 (1 month)
+-   Developed a backend for a guidable AI-backed chat with podcasts and blog posts.
+
+-   **Client’s feedback:** 5 stars
+
+-   Python 3.12, Django, Django REST framework, PostgreSQL, Traefik, OpenAI Assistant API and a
+    [common toolset](#common-toolset)
+
+#### ShyftOff (call center outsourcer), [*shyftoff.com*](https://shyftoff.com), USA, Senior Python Developer, Jun 2023 – May 2024 (1 year)
 -   Developed a call center agent facing software: agent performance stats, campaign application and
     workflow, payment information, notifications, etc.
 
@@ -73,14 +114,14 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     PostgreSQL, OpenAI API (embeddings, chat completion), Twilio API (calls, SMS), WebSockets,
     uvicorn, Terraform, AWS (ECS, RDS, Lambda, Cognito) and a [common toolset](#common-toolset)
 
-#### Suno Software Inc. (healthcare: audiology), [*suno.tech*](https://suno.tech), Team Leader / Senior Python Developer, Jul 2022 – Mar 2023 (8 months)
+#### Suno Software Inc. (healthcare: audiology), [*suno.tech*](https://suno.tech), USA, Team Leader / Senior Python Developer, Jul 2022 – Mar 2023 (8 months)
 -   Developed audiology clinics business process automation SaaS.
 
 -   Python 3.10, Django, Django REST framework, Django Channels, Celery, Pydantic, PostgreSQL,
     Twilio API, Tilled API, JustiFi API, Claim.md API, Box API, daphne, AWS (RDS, ECS, SES, CDK) and
     a [common toolset](#common-toolset)
 
-#### Lehner Investments (trading), `lehnerinvestments.com`, **Senior Python Developer**, Aug 2020 – Apr 2022 (1 year 8 months)
+#### Lehner Investments (trading), `lehnerinvestments.com`, Germany, **Senior Python Developer**, Aug 2020 – Apr 2022 (1 year 8 months)
 -   Developed microservice architecture (9 microservices) mutual fund trading system backend.
 
 -   **Client’s feedback:** *"It was a pleasure to work with Dmitry. He was extremely helpful in
@@ -92,7 +133,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.9, nameko, Django, Django REST framework, PostgreSQL, RabbitMQ, pandas, numpy, SendGrid
     API, WebSockets, socket.io and a [common toolset](#common-toolset)
 
-#### The Convenience App (e-commerce retail application), Senior Python Developer, Mar 2021 – Feb 2022 (1 year)
+#### The Convenience App (e-commerce retail application), USA, Senior Python Developer, Mar 2021 – Feb 2022 (1 year)
 -   Developed a REST API backend for mobile (Android and iOS) curbside pickup application.
 
 -   **Client’s feedback:** 5 stars
@@ -100,7 +141,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.9, Django, Django REST Framework, Celery, PostgreSQL, Stripe API, SendGrid API, Twilio
     API, Google Maps API, gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
 
-#### Medical Device Risks (healthcare), Senior Python Developer, Aug 2020 – Jul 2021 (1 year)
+#### Medical Device Risks (healthcare), USA, Senior Python Developer, Aug 2020 – Jul 2021 (1 year)
 -   Developed a REST API backend for medical device risks management single page application.
 
 -   **Client’s feedback:** *"Brilliant Engineer to work with. Highly recommended"*
@@ -108,7 +149,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.8, Django, Django REST Framework, Celery, PostgreSQL, Full-text search, SendGrid API,
     gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
 
-#### 7 Cheetahs (automated trading), [*7cheetahs.com*](https://7cheetahs.com), Team Leader / Senior Python Developer, Aug 2019 – Apr 2020 (9 months)
+#### 7 Cheetahs (automated trading), [*7cheetahs.com*](https://7cheetahs.com), Canada, Team Leader / Senior Python Developer, Aug 2019 – Apr 2020 (9 months)
 -   Refactored to microservice architecture and developed a futures trading system. Managed a remote
     team of 5 python developers. Designed new scalable higher performance architecture.
 
@@ -121,7 +162,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.7, Django, MongoDB, PostgreSQL, logstash (ELK), RabbitMQ, pandas, numpy, IQFeed API,
     InteractiveBrokers API, nginx, uWSGI, git, pytest, Jenkins, PyCharm, Linux (Ubuntu), Windows
 
-#### Dolphin, Inc. (job search), `splashwithdolphin.com`, Senior Python Developer, Feb 2019 – Jan 2021 (1 year 11 months)
+#### Dolphin, Inc. (job search), `splashwithdolphin.com`, USA, Senior Python Developer, Feb 2019 – Jan 2021 (1 year 11 months)
 -   Developed a REST API backend for iOS job search and recommendation application.
 
 -   **Client’s feedback:** *"It’s always a pleasure working with Dmitry. Amazing work as usual"*
@@ -130,7 +171,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     RabbitMQ, HTML / CSS/ JavaScript / jQuery, gunicorn, Heroku, AWS S3, SendGrid API, pipenv,
     pylint and a [common toolset](#common-toolset)
 
-#### we love data sp. z o.o (email marketing), Database Developer, Jan 2019 – Sep 2019 (9 months)
+#### we love data sp. z o.o (email marketing), Poland, Database Developer, Jan 2019 – Sep 2019 (9 months)
 -   Database structure and SQL-queries optimization for email subscription service with about 40
     million subscribers.
 
@@ -138,7 +179,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   PostgreSQL 11, SQL
 
-#### Packy (network monitoring), **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
+#### Packy (network monitoring), New Zeland, **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
 -   Implemented 3 backend components (REST API server, WAMP / WebSockets API server, monitoring
     agent) of distributed network monitoring system.
 
@@ -151,7 +192,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     protocols), Raspbian, Armbian, Raspberry Pi 3 Model B/B+, Orange Pi Zero, AWS (EC2, RDS, S3,
     ElastiCache, SES) and a [common toolset](#common-toolset)
 
-#### CreditSCRIPT (finances), [*www.creditscript.com*](https://www.creditscript.com), Senior Python Developer, Jan 2017 – Sep 2017 (9 months)
+#### CreditSCRIPT (finances), [*www.creditscript.com*](https://www.creditscript.com), Madagascar / UK, Senior Python Developer, Jan 2017 – Sep 2017 (9 months)
 -   Developed 10 high performance loan bidding micro-services integrated via Kafka bus.
 
 -   **Client’s feedback:** *"Excellent senior python developer. Architected, developed and delivered
@@ -161,7 +202,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     Schematics, gevent, asynchronous programming, PostgreSQL, MySQL, Cassandra, Kafka, RabbitMQ,
     GraphQL, Prosper API, Docker, git, PyCharm, Linux (Ubuntu)
 
-#### Trounceflow (finances), `www.trounceflow.com`, Python Team Leader, Dec 2016 – May 2017 (6 months)
+#### Trounceflow (finances), `www.trounceflow.com`, UK, Python Team Leader, Dec 2016 – May 2017 (6 months)
 -   Managed a team of Python developers and refactored a web scraping backend for financial data
     analysis application.
 
@@ -171,7 +212,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.5, Django 1.10, PostgreSQL, SQLITE3, Schematics, HTML, PDF and XLS/XLSX data scraping
     and parsing, Heroku, AWS S3, git, PyCharm, Linux (Ubuntu)
 
-#### Semilimes (SaaS ERP), Senior Python Developer, Oct 2017 – Jan 2017 (4 months)
+#### Semilimes (SaaS ERP), Switzerland, Senior Python Developer, Oct 2017 – Jan 2017 (4 months)
 -   Developed backend and frontend of SaaS ERP on-boarding questionnaire with Flask and
     SQLAlchemy.
 
@@ -180,7 +221,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 2.7, Python 3.5, Tryton, Flask, Django, Django REST Framework, Jinja2, HTML, JavaScript,
     CSS, jQuery, JSON-RPC, XML, Werkzeug, git, PyCharm, Linux (Ubuntu)
 
-#### Carpe (finances), [*www.carpe.com*](https://www.carpe.com), Senior Python Developer, Jul 2016 – Jan 2017 (7 months)
+#### Carpe (finances), [*www.carpe.com*](https://www.carpe.com), USA, Senior Python Developer, Jul 2016 – Jan 2017 (7 months)
 -   Developed a high performance Falcon-based and ZeroRPC-based backend servers for a personal
     finance management company.
 
@@ -194,7 +235,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     ZeroRPC, Linux (Ubuntu), AWS EC2/S3, nginx, Supervisor, boto3, git, PyCharm, Asana, unittest,
     pytest
 
-#### Diamond Mine (bioinformatics), `diamondmine.io`, Senior Python Developer, Jun 2016 – Nov 2016 (6 months)
+#### Diamond Mine (bioinformatics), `diamondmine.io`, USA, Senior Python Developer, Jun 2016 – Nov 2016 (6 months)
 -   Developed backend and frontend for a web application to find correlation in user submitted blood
     samples data to help finding a cure for diabetes.
 
@@ -206,7 +247,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 2.7, Python 3.5, Django 1.9, Celery, pandas, SQL, PostgreSQL, RabbitMQ, MessagePack,
     nginx, uWSGI, git, PyCharm, Linux (Ubuntu)
 
-### Platform T (Uber-like taxi service startup seed funded by SAPRUN, [*www.saprun.com*](https://www.saprun.com)), Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)
+### Platform T (Uber-like taxi service startup seed funded by SAPRUN, [*www.saprun.com*](https://www.saprun.com)), Russia / Moscow, Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)
 -   Designed a horizontally scalable system architecture of an Uber-like taxi business automation
     system (4 HTTP REST APIs, WAMP Pubsub API and WAMP RPC API available for 2 Android, iPhone and
     Desktop applications).
@@ -227,7 +268,7 @@ Asterisk, SQL, PostgreSQL, Redis, RabbitMQ, uWSGI, nginx, Odoo, HTTP, WAMP over 
 JSON, YAML, HTML / CSS / JavaScript, git, PyCharm, Jira, Jenkins, Ansible, unittest, Behave, Linux
 (Ubuntu 14.04)
 
-### Lamoda (largest Russia and CIS fashion e-commerce company, [*www.lamoda.ru*](https://www.lamoda.ru)), Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)
+### Lamoda (largest Russia and CIS fashion e-commerce company, [*www.lamoda.ru*](https://www.lamoda.ru)), Russia / Moscow, Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)
 -   Developed largest Russia and CIS fashion e-commerce website backend from scratch (as a member of
     a backend development team): business logic and data access library, SOAP and HTTP/JSON public
     API and Solr-based full text and faceted search service.
@@ -244,28 +285,28 @@ Solr, Sphinx, Redis, uWSGI, nginx, HTTP, SOAP, JSON, XML, HTML, CSS, git, PyChar
 maven, Apache Tomcat, Linux (Ubuntu, Debian)
 
 ### Other
--   Govoritter, `govoritter.com`, startup project (Python technology stack), Aug 2011 – Mar 2012 (7
-    months)
+-   Govoritter, `govoritter.com`, Russia / Moscow, startup project (Python technology stack), Aug
+    2011 – Mar 2012 (7 months)
 
--   Grid Dynamics, [*www.griddynamics.com*](https://www.griddynamics.com), QA Lead, Aug 2010 – Aug
-    2011 (1 year)
+-   Grid Dynamics, [*www.griddynamics.com*](https://www.griddynamics.com), Russia / Moscow / USA, QA
+    Lead, Aug 2010 – Aug 2011 (1 year)
 
--   Neoflex, [*www.neoflex.ru*](https://www.neoflex.ru), Head of Software Testing Department, Feb
-    2008 – May 2010 (2 years 3 months)
+-   Neoflex, [*www.neoflex.ru*](https://www.neoflex.ru), Russia / Moscow, Head of Software Testing
+    Department, Feb 2008 – May 2010 (2 years 3 months)
 
--   Google Inc. (contract), [*www.google.com*](https://www.google.com), Localization Testing
-    Specialist, Jul 2007 – Feb 2008 (8 months)
+-   Google Inc. (contract), [*www.google.com*](https://www.google.com), Russia / Moscow,
+    Localization Testing Specialist, Jul 2007 – Feb 2008 (8 months)
 
--   Amphora Group, `www.amphora-group.ru`, Senior Quality Engineer, May 2003 – Jul 2007 (4 years 2
-    months)
+-   Amphora Group, `www.amphora-group.ru`, Russia / Moscow, Senior Quality Engineer, May 2003 – Jul
+    2007 (4 years 2 months)
 
--   Microtest, `www.microtest.ru`, Test Engineer, Dec 2002 – Mar 2003 (3 months)
+-   Microtest, `www.microtest.ru`, Russia / Moscow, Test Engineer, Dec 2002 – Mar 2003 (3 months)
 
--   Trinity Logic Corp., `www.tl-c.ru`, Oracle Database Administrator, Developer, Jan 2002 – Dec
-    2002 (1 year)
+-   Trinity Logic Corp., `www.tl-c.ru`, Russia / Moscow, Oracle Database Administrator, Developer,
+    Jan 2002 – Dec 2002 (1 year)
 
--   Altyn Ay (Almetyevsk), Programmer, Senior System Administrator, Jul 1996 – May 2001 (4 years 10
-    months)
+-   Altyn Ay, Russia / Almetyevsk, Programmer / Senior System Administrator, Jul 1996 – May 2001 (4
+    years 10 months)
 
 ## Common Toolset
 pyenv, Poetry, pytest, Sentry, git, pre-commit, make, shell scripts, flake8, yapf, Black, isort,
@@ -297,6 +338,8 @@ mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
     -   <https://github.com/thenewboston-blockchain/thenewboston-node>
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
         [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy))
+
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
 
 -   YouTube channels:
 
