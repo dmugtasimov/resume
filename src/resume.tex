@@ -46,6 +46,20 @@ define('PROCESSOR')
 \newcommand{\pditem}{ifelse(PROCESSOR, `pandoc', `\item', `')}
 \newcommand{\pdenditemize}{ifelse(PROCESSOR, `pandoc', `\end{itemize}', `')}
 
+% Technology stack commands:
+\newcommand{\python}{\href{https://www.python.org/}{Python}}
+\newcommand{\django}{\href{https://www.djangoproject.com/}{Django}}
+\newcommand{\fastapi}{\href{https://fastapi.tiangolo.com/}{FastAPI}}
+\newcommand{\celery}{\href{https://docs.celeryq.dev/}{Celery}}
+\newcommand{\postgresql}{\href{https://www.postgresql.org/}{PostgreSQL}}
+\newcommand{\redis}{\href{https://redis.io/}{Redis}}
+\newcommand{\rabbitmq}{\href{https://www.rabbitmq.com/}{RabbitMQ}}
+\newcommand{\awsecs}{\href{https://aws.amazon.com/ecs/}{ECS}}
+\newcommand{\awsectwo}{\href{https://aws.amazon.com/ec2/}{EC2}}
+\newcommand{\awsrds}{\href{https://aws.amazon.com/rds/}{RDS}}
+\newcommand{\awslambda}{\href{https://aws.amazon.com/lambda/}{Lambda}}
+\newcommand{\awsapigateway}{\href{https://aws.amazon.com/api-gateway/}{API Gateway}}
+
 \titleformat{\section}{\centering\bfseries\cfontsize{22pt}}{}{0em}{}
 \titlespacing*{\section}{0pt}{0pt}{0.2em}
 
@@ -346,6 +360,45 @@ pyenv, Poetry, pytest, Sentry, git, pre-commit, make, shell scripts, flake8, yap
             \end{itemize}
         \end{itemize}
     \item LinkedIn: \url{https://www.linkedin.com/in/dmugtasimov/}
+\end{itemize}
+
+\subsection*{Annex A: Technology Stack}
+This section describes technologies I have experience with.
+\subsubsection*{\hypertarget{primary-technology-stack}{Primary Technology Stack}}
+This is my default choice of technologies.
+\begin{itemize}
+    \item \textbf{Development environment toolset:} \python, \href{https://www.jetbrains.com/pycharm/}{PyCharm}, \href{https://linuxmint.com/}{Linux Mint}, \href{https://www.gnu.org/software/bash/}{bash} and shell scripts, \href{https://www.gnu.org/software/make/manual/make.html}{make}, \href{https://www.docker.com/}{Docker} (with \href{https://docs.docker.com/compose/}{Docker Compose}), \href{https://github.com/pyenv/pyenv}{pyenv} and \href{https://python-poetry.org/}{Poetry} (transitioning to \href{https://docs.astral.sh/uv/}{uv}) \href{https://git-scm.com/}{git} (on \href{https://github.com/}{GitHub} with \href{https://github.com/features/actions}{GitHub Actions}), \href{https://pre-commit.com/}{pre-commit}, \href{https://docs.astral.sh/ruff/}{Ruff}, \href{https://docs.pytest.org/}{pytest}, \href{https://docs.python.org/3/library/unittest.mock.html}{mock} object library, \href{https://model-bakery.readthedocs.io/}{Model Bakery}, \href{https://vcrpy.readthedocs.io/}{vcrpy}, \href{https://linear.app/}{Linear} (alternatively: \href{https://trello.com/}{Trello}, \href{https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects}{GitHub Projects}, \href{https://github.com/features/issues}{GitHub Issues}, \href{https://www.atlassian.com/software/jira}{Jira})
+    \item \textbf{Frameworks:} \django, \fastapi, \celery, \href{https://www.sqlalchemy.org/}{SQLAlchemy}
+    \item \textbf{AI tools:} \href{https://chatgpt.com/}{ChatGPT}, \href{https://github.com/features/copilot}{GitHub Copilot}, \href{https://www.anthropic.com/claude-code}{Claude Code}
+    \item \textbf{Data technologies:} \postgresql, \rabbitmq, \href{https://qdrant.tech/}{Qdrant}
+    \item \textbf{Deployment environments:} \href{https://aws.amazon.com/}{AWS} (\awsecs, \awsectwo, \awsrds), \href{https://www.heroku.com/}{Heroku} (alternatively \href{https://render.com/}{Render}), \href{https://docs.digitalocean.com/products/droplets/}{Droplets} (and cloud hosting virtual machine providers), \href{https://ubuntu.com/}{Ubuntu}, \href{https://www.debian.org/}{Debian}, \href{https://alpinelinux.org/}{Alpine}, \href{https://sentry.io/}{Sentry}, \href{https://www.datadoghq.com/}{Datadog}
+    \item \textbf{Other stack related tools and technologies:} \href{https://en.wikipedia.org/wiki/SQL}{SQL}, \href{https://www.markdownguide.org/}{Markdown} (alternatively: \href{https://docutils.sourceforge.io/rst.html}{reStructuredText}), \href{https://www.w3.org/TR/2011/WD-html5-20110405/}{HTML} / \href{https://www.w3.org/Style/CSS/specs.en.html}{CSS} / \href{https://developer.mozilla.org/en-US/docs/Web/JavaScript}{JavaScript}
+    \item \item \textbf{Alternative and rarely used tools and technologies:} \href{https://pypy.org/}{PyPy}, \href{https://cython.org/}{Cython}, \href{https://numba.pydata.org/}{Numba}, \href{https://pypi.org/project/pip/}{pip} (one-off installs), \href{https://flask.palletsprojects.com/}{Flask}, \href{https://www.nameko.io/}{nameko}, \href{https://www.mongodb.com/}{MongoDB}, \href{https://www.mysql.com/}{MySQL} (or \href{https://mariadb.org/}{MariaDB}), \href{https://www.latex-project.org/}{LaTeX}
+\end{itemize}
+\subsubsection{Deprecated Technology Stack}
+These are technologies I have experience with, but prefer to avoid because of being outdated, having better alternatives or just not good enough:
+\begin{itemize}
+    \item \textbf{Python dependency management tools:} easy\_install, \href{https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#setup-py}{setup.py} and \href{https://www.buildout.org/}{Buildout} (pretty legacy or outdated tools), \href{https://pip.pypa.io/en/stable/reference/requirements-file-format/}{requirements.txt} (not good enough for production grade projects), \href{https://pypi.org/project/pipenv/}{Pipenv} (superseded by \href{https://python-poetry.org/}{Poetry})
+    \item \textbf{Linters and formatters:}  \href{https://flake8.pycqa.org/}{flake8}, \href{https://github.com/google/yapf}{yapf}, \href{https://black.readthedocs.io/}{Black} \item \href{https://pycqa.github.io/isort/}{isort} and  \href{https://mypy-lang.org/}{mypy} (superseded by \href{https://docs.astral.sh/ruff/}{Ruff})
+\end{itemize}
+\begin{itemize}
+    \item Task management tools
+    \begin{itemize}
+        \item \href{https://www.atlassian.com/software/jira}{Jira}
+        \item \href{https://asana.com/}{asana}
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Extra and Alternative Technology Stack}
+These are alternative and extra technologies I work with in special cases.
+\begin{itemize}
+    \item Frameworks
+    \item \href{https://mypy-lang.org/}{mypy}
+    \item \href{https://www.pylint.org/}{pylint}
+    \item \href{https://www.deepseek.com/}{DeepSeek}
+    \item \href{https://react.dev/}{React}
+    \item \href{https://render.com/}{Render}
+    \item \href{https://sphinxsearch.com/}{Sphinx} search engine
 \end{itemize}
 
 \end{document}

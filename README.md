@@ -372,3 +372,103 @@ mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
             <https://habrahabr.ru/post/166463/>
 
 -   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>
+
+## Annex A: Technology Stack
+This section describes technologies I have experience with.
+
+### Primary Technology Stack
+This is my default choice of technologies.
+
+-   **Development environment toolset:** [Python](https://www.python.org/),
+    [PyCharm](https://www.jetbrains.com/pycharm/), [Linux Mint](https://linuxmint.com/),
+    [bash](https://www.gnu.org/software/bash/) and shell scripts,
+    [make](https://www.gnu.org/software/make/manual/make.html), [Docker](https://www.docker.com/)
+    (with [Docker Compose](https://docs.docker.com/compose/)),
+    [pyenv](https://github.com/pyenv/pyenv) and [Poetry](https://python-poetry.org/) (transitioning
+    to [uv](https://docs.astral.sh/uv/)) [git](https://git-scm.com/) (on
+    [GitHub](https://github.com/) with [GitHub Actions](https://github.com/features/actions)),
+    [pre-commit](https://pre-commit.com/), [Ruff](https://docs.astral.sh/ruff/),
+    [pytest](https://docs.pytest.org/), [mock](https://docs.python.org/3/library/unittest.mock.html)
+    object library, [Model Bakery](https://model-bakery.readthedocs.io/),
+    [vcrpy](https://vcrpy.readthedocs.io/), [Linear](https://linear.app/) (alternatively:
+    [Trello](https://trello.com/), [GitHub
+    Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects),
+    [GitHub Issues](https://github.com/features/issues),
+    [Jira](https://www.atlassian.com/software/jira))
+
+-   **Frameworks:** [Django](https://www.djangoproject.com/),
+    [FastAPI](https://fastapi.tiangolo.com/), [Celery](https://docs.celeryq.dev/),
+    [SQLAlchemy](https://www.sqlalchemy.org/)
+
+-   **AI tools:** [ChatGPT](https://chatgpt.com/), [GitHub
+    Copilot](https://github.com/features/copilot), [Claude
+    Code](https://www.anthropic.com/claude-code)
+
+-   **Data technologies:** [PostgreSQL](https://www.postgresql.org/),
+    [RabbitMQ](https://www.rabbitmq.com/), [Qdrant](https://qdrant.tech/)
+
+-   **Deployment environments:** [AWS](https://aws.amazon.com/) ([ECS](https://aws.amazon.com/ecs/),
+    [EC2](https://aws.amazon.com/ec2/), [RDS](https://aws.amazon.com/rds/)),
+    [Heroku](https://www.heroku.com/) (alternatively [Render](https://render.com/)),
+    [Droplets](https://docs.digitalocean.com/products/droplets/) (and cloud hosting virtual machine
+    providers), [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/),
+    [Alpine](https://alpinelinux.org/), [Sentry](https://sentry.io/),
+    [Datadog](https://www.datadoghq.com/)
+
+-   **Other stack related tools and technologies:** [SQL](https://en.wikipedia.org/wiki/SQL),
+    [Markdown](https://www.markdownguide.org/) (alternatively:
+    [reStructuredText](https://docutils.sourceforge.io/rst.html)),
+    [HTML](https://www.w3.org/TR/2011/WD-html5-20110405/) /
+    [CSS](https://www.w3.org/Style/CSS/specs.en.html) /
+    [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+-
+
+-   **Alternative and rarely used tools and technologies:** [PyPy](https://pypy.org/),
+    [Cython](https://cython.org/), [Numba](https://numba.pydata.org/),
+    [pip](https://pypi.org/project/pip/) (one-off installs),
+    [Flask](https://flask.palletsprojects.com/), [nameko](https://www.nameko.io/),
+    [MongoDB](https://www.mongodb.com/), [MySQL](https://www.mysql.com/) (or
+    [MariaDB](https://mariadb.org/)), [LaTeX](https://www.latex-project.org/)
+
+### Deprecated Technology Stack
+These are technologies I have experience with, but prefer to avoid because of being outdated, having
+better alternatives or just not good enough:
+
+-   **Python dependency management tools:** easy\_install,
+    [setup.py](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#setup-py)
+    and [Buildout](https://www.buildout.org/) (pretty legacy or outdated tools),
+    [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/) (not good
+    enough for production grade projects), [Pipenv](https://pypi.org/project/pipenv/) (superseded by
+    [Poetry](https://python-poetry.org/))
+
+-   **Linters and formatters:** [flake8](https://flake8.pycqa.org/),
+    [yapf](https://github.com/google/yapf), [Black](https://black.readthedocs.io/)
+
+-   [isort](https://pycqa.github.io/isort/) and [mypy](https://mypy-lang.org/) (superseded by
+    [Ruff](https://docs.astral.sh/ruff/))
+
+&nbsp;
+
+-   Task management tools
+
+    -   [Jira](https://www.atlassian.com/software/jira)
+
+    -   [asana](https://asana.com/)
+
+### Extra and Alternative Technology Stack
+These are alternative and extra technologies I work with in special cases.
+
+-   Frameworks
+
+-   [mypy](https://mypy-lang.org/)
+
+-   [pylint](https://www.pylint.org/)
+
+-   [DeepSeek](https://www.deepseek.com/)
+
+-   [React](https://react.dev/)
+
+-   [Render](https://render.com/)
+
+-   [Sphinx](https://sphinxsearch.com/) search engine
