@@ -9,28 +9,41 @@ jobs:
   publish-release:
     name: Publish Release
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Run shared setup
         uses: ./.github/actions/setup
 
-      - name: Generate PDF
-        run: make generate-pdf
+      - name: Build release artifacts
+        run: make build-all
 
       - name: Set resume metadata
         id: resume_metadata
-        run: echo 'path=generated/dmugtasimov-resume.pdf' >> $GITHUB_OUTPUT
+        run: |
+          {
+            echo 'files<<EOF'
+            echo 'build/dmugtasimov-resume.pdf'
+            echo 'build/dmugtasimov-resume.md'
+            echo 'build/dmugtasimov-resume.html'
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
 
-      - name: Check if resume PDF exists
-        run: test -f '${{ steps.resume_metadata.outputs.path }}'
+      - name: Check if release artifacts exist
+        run: |
+          test -f build/dmugtasimov-resume.pdf
+          test -f build/dmugtasimov-resume.md
+          test -f build/dmugtasimov-resume.html
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
-          files: ${{ steps.resume_metadata.outputs.path }}
+          make_latest: true
+          files: ${{ steps.resume_metadata.outputs.files }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}

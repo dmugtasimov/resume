@@ -1,12 +1,4 @@
 repos:
-  - repo: local
-    hooks:
-      - id: ensure-markdown-resume-up-to-date
-        name: Ensure Markdown resume is up-to-date
-        entry: bash -c 'make generate-markdown && git --no-pager diff --exit-code README.md'
-        language: system
-        files: ^src/.*$
-        pass_filenames: false
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
@@ -14,3 +6,11 @@ repos:
       - id: end-of-file-fixer
         exclude: \.svg$|^README\.md$
       - id: trailing-whitespace
+  - repo: local
+    hooks:
+      - id: ensure-resume-artifacts-are-buildable
+        name: Ensure resume artifacts are buildable
+        entry: make build
+        language: system
+        files: ^(README\.md|Makefile|src/(pandoc|pandoc-html)\.yaml|src/pandoc-pdf-template\.html|src/resume\.css)$
+        pass_filenames: false

@@ -1,4 +1,2 @@
-.idea/
-/generated/
-/out/
-/svg-inkscape/
+/.idea/
+/build/

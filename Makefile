@@ -1,83 +1,138 @@
-src/resume.tex: ;
-src/telegram-logo.svg: ;
-src/pandoc.yaml: ;
-src/pandoc_postprocessor.py: ;
-src/filter.lua: ;
+PRE_COMMIT_VERSION := 4.5.1
+PYPANDOC_BINARY_VERSION := 1.17
+WEASYPRINT_VERSION := 68.1
+BUILD_DIR := build
+TEMPORARY_HTML_FILE := /tmp/.resume-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.html
+GREEN := \033[0;32m
+RESET := \033[0m
+msg ?= $(shell date '+%Y-%m-%d %H:%M:%S')
+
+.PHONY: help
+help:
+	@echo 'Specify a target explicitly: make <target>'
+
 Makefile: ;
+README.md: ;
+src/pandoc.yaml: ;
+src/pandoc-html.yaml: ;
+src/pandoc-pdf-template.html: ;
+src/resume.css: ;
 
-.PHONY: apt-update
-apt-update:
-	sudo apt update
+.PHONY: install-uv
+install-uv:
+	@printf '\n$(GREEN)%s$(RESET)\n' 'Installing uv if not already installed...'
+	if ! command -v uv >/dev/null 2>&1; then \
+		curl -LsSf https://astral.sh/uv/install.sh | sh; \
+	fi
 
-.PHONY: install-texlive
-install-texlive:
-	sudo apt install -y texlive=2023.20240207-1 \
-		texlive-latex-extra=2023.20240207-1 \
-		texlive-base=2023.20240207-1 \
-		texlive-binaries=2023.20230311.66589-9build3 \
-		texlive-fonts-recommended=2023.20240207-1 \
-		texlive-latex-base=2023.20240207-1 \
-		texlive-latex-recommended=2023.20240207-1 \
-		texlive-pictures=2023.20240207-1 \
-		texlive-plain-generic=2023.20240207-1
-	sudo apt install -y inkscape=1.2.2-2ubuntu12
+.PHONY: run-pre-commit
+run-pre-commit: install-uv
+	uvx pre-commit==$(PRE_COMMIT_VERSION) $(args)
 
-.PHONY: install-pandoc-m4
-install-pandoc-m4:
-	sudo apt install -y pandoc=3.1.3+ds-2 \
-		pandoc-data=3.1.3-1 \
-		m4=1.4.19-4build1
+.PHONY: run-pandoc
+run-pandoc: install-uv
+	uvx --from pypandoc-binary==$(PYPANDOC_BINARY_VERSION) pypandoc pandoc $(args)
 
-.PHONY: install-pipx
-install-pipx:
-	sudo apt install -y pipx
-	pipx ensurepath
-	pipx install pipx==1.7.1
+.PHONY: run-weasyprint
+run-weasyprint: install-uv
+	uvx weasyprint==$(WEASYPRINT_VERSION) $(args)
 
 .PHONY: install-pre-commit
-install-pre-commit: install-pipx
-	pipx install pre-commit==4.0.1
+install-pre-commit:
+	@printf '\n$(GREEN)%s$(RESET)\n' 'Installing pre-commit...'
+	$(MAKE) run-pre-commit args=install
 
-.PHONY: setup-pre-commit
-setup-pre-commit:
-	pre-commit uninstall; pre-commit install
+.PHONY: install-pandoc
+install-pandoc: install-uv
+	@printf '\n$(GREEN)%s$(RESET)\n' 'Installing pandoc...'
+	$(MAKE) run-pandoc args=--version
 
-.PHONY: install
-install: apt-update install-texlive install-pandoc-m4 install-pre-commit setup-pre-commit ;
+.PHONY: install-weasyprint
+install-weasyprint: install-uv
+	@printf '\n$(GREEN)%s$(RESET)\n' 'Installing weasyprint...'
+	$(MAKE) run-weasyprint args=--version
 
-.PHONY: generate-pdf
-generate-pdf: generated/dmugtasimov-resume.pdf
+.PHONY: setup
+setup: install-uv install-pre-commit install-pandoc install-weasyprint ;
 
-generated/dmugtasimov-resume.pdf: src/resume.tex src/telegram-logo.svg
-	mkdir -p generated
-	-cat src/resume.tex | m4 --define=PROCESSOR=pdflatex > /tmp/resume.tex
-	pdflatex -interaction=nonstopmode -shell-escape -jobname=generated/dmugtasimov-resume /tmp/resume.tex
+$(BUILD_DIR)/:
+	mkdir -p $(BUILD_DIR)
 
-.PHONY: generate-markdown
-generate-markdown: README.md
+$(BUILD_DIR)/dmugtasimov-resume.md: README.md Makefile | $(BUILD_DIR)/
+	cp README.md $(BUILD_DIR)/dmugtasimov-resume.md
 
-README.md: src/resume.tex src/pandoc.yaml src/pandoc_postprocessor.py Makefile
-	-cat src/resume.tex | m4 --define=PROCESSOR=pandoc | pandoc --defaults=src/pandoc.yaml | ./src/pandoc_postprocessor.py | sed 's/[ \t]*$$//' > README.md
+$(BUILD_DIR)/dmugtasimov-resume.pdf: README.md src/pandoc.yaml src/pandoc-pdf-template.html src/resume.css Makefile | $(BUILD_DIR)/
+	trap 'rm -f "$(TEMPORARY_HTML_FILE)"' EXIT && \
+	$(MAKE) run-pandoc args='--defaults=src/pandoc.yaml README.md -o $(TEMPORARY_HTML_FILE)' && \
+	$(MAKE) run-weasyprint args='--base-url "$(CURDIR)" "$(TEMPORARY_HTML_FILE)" $(BUILD_DIR)/dmugtasimov-resume.pdf'
 
-.PHONY: generate-all
-generate-all: generated/dmugtasimov-resume.pdf README.md ;
+$(BUILD_DIR)/dmugtasimov-resume.html: README.md src/pandoc-html.yaml src/resume.css Makefile | $(BUILD_DIR)/
+	$(MAKE) run-pandoc args='--embed-resources --defaults=src/pandoc-html.yaml README.md -o $(BUILD_DIR)/dmugtasimov-resume.html'
+
+.PHONY: build-md
+build-md: $(BUILD_DIR)/dmugtasimov-resume.md
+
+.PHONY: build-pdf
+build-pdf: $(BUILD_DIR)/dmugtasimov-resume.pdf
+
+.PHONY: build-html
+build-html: $(BUILD_DIR)/dmugtasimov-resume.html
+
+.PHONY: build-all
+build-all: build-pdf build-html build-md ;
+
+.PHONY: build
+build: build-all ;
+
+.PHONY: build-force
+build-force:
+	rm -rf $(BUILD_DIR)
+	$(MAKE) build
 
 .PHONY: lint
-lint:
-	pre-commit run --all-files
+lint: install-uv
+	$(MAKE) run-pre-commit args='run --all-files'
 
 .PHONY: tag
 tag:
-	git tag -a -m '' $(name)
+	git tag -a -m '' $(name) $(tag_args)
 
 .PHONY: tag-latest
 tag-latest:
-	# TODO(dmu) MEDIUM: Make it DRY with `tag` target
-	git tag -a -m '' $(name) -f
+	$(MAKE) tag name=latest tag_args=-f
 
 .PHONY: release
 release:
-	make tag name=v$(version)
-	make tag-latest
-	git push origin v$(version)
-	git push latest -f
+	version=$$(cat .version) && \
+	git fetch --tags --force >/dev/null 2>&1 && \
+	highest_existing_version=$$(git tag --list 'v*' | sort -u | sort -V | tail -n 1) && \
+	if [ -n "$$highest_existing_version" ] && [ "$$(printf '%s\n' "$$version" "$$highest_existing_version" | sort -V | tail -n 1)" = "$$highest_existing_version" ]; then \
+	    echo ''; \
+	    echo ''; \
+		printf 'Same or higher version tag already exists: %s.\n' "$$highest_existing_version"; \
+		printf 'Please bump version in ./.version.\n\n\n'; \
+		exit 1; \
+	fi
+#	fi && \
+#	$(MAKE) tag name=$$version && \
+#	$(MAKE) tag-latest && \
+#	git push origin $$version && \
+#	git push latest -f
+
+.PHONY: codex-unleashed
+codex-unleashed:
+	codex --dangerously-bypass-approvals-and-sandbox
+
+.PHONY: commit-and-push
+commit-and-push: commit_args = -m "$(msg)"
+commit-and-push: commit-and-push-common
+
+.PHONY: amend-and-push
+amend-and-push: commit_args = --amend --no-edit
+amend-and-push: push_args = -f
+amend-and-push: commit-and-push-common
+
+.PHONY: commit-and-push-common
+commit-and-push-common:
+	git diff --quiet && git diff --cached --quiet || git commit --all $(commit_args)
+	git push $(push_args)

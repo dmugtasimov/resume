@@ -1,69 +1,114 @@
 # Dmitry Mugtasimov
 Senior Python Developer / System Architect / Team Leader
 
+[dmugtasimov@gmail.com](mailto:dmugtasimov@gmail.com)
+
 Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
-<dmugtasimov@gmail.com>
+***Top Rated Plus[¹](#1)** and **Expert-Vetted[¹](#1)** • **100%** Job Success Score[¹](#1)\
+**27 years** of experience • **7400+ hours** worked across **32 jobs** on Upwork\
+Outstanding feedback from clients • Fluent English.*
 
-***Top Rated Plus** and **Expert-Vetted** ● **7300+ hours** and **32 jobs** worked at Upwork
-100% Job Success Score ● Outstanding feedback from clients ● Fluent English*
+AI-first senior engineer applying AI across the full software delivery lifecycle — from code generation and
+testing to review, refactoring, debugging, and system operations. This amplifies already strong engineering fundamentals,
+system design judgment, and problem-solving ability, consistently delivering faster and higher-quality outcomes.
+
+All outputs — including AI-assisted work — are manually reviewed, refined, and validated to production quality
+standards before delivery.
+
+## Key Strengths
+-   Senior Python backend engineer with rare cross-functional depth in architecture, development,
+    databases, DevOps, QA, management and system administration.
+
+-   Proven ownership of complex production systems: API backends, microservices, SaaS platforms,
+    high-load systems, distributed systems, search systems, and AI-powered products.
+
+-   Strong system design and scalability background: performance optimization, zero-downtime
+    upgrades, database optimization, asynchronous processing, WebSockets, queues, and cloud
+    infrastructure.
+
+-   Deep Python ecosystem expertise: Django, Django REST framework, FastAPI, Flask, SQLAlchemy,
+    Celery, Pydantic, PostgreSQL, Redis, RabbitMQ, Elasticsearch, and modern Python tooling.
+
+-   Practical AI engineering experience with OpenAI API, embeddings, semantic search, AI assistants,
+    voice assistants, LLM-powered workflows, and production AI integrations.
+
+-   Business-focused senior contributor who can join an existing codebase, identify bottlenecks,
+    propose multiple viable solutions, and deliver maintainable production changes independently.
+
+-   Leadership-level communication: remote team leadership, architecture decisions, code review,
+    hiring, release management, clear client communication, and consistently strong client feedback.
 
 ## Professional Experience
 27 years of software engineering experience, with overlapping roles:
 
--   14 years in Python development (plus 4 years in other programming languages)
+-   14 years in Python development (plus 4 years in other programming languages).
 
--   8 years in managerial positions
+-   8 years in managerial positions.
 
--   8 years in software quality assurance
+-   8 years in software quality assurance.
 
--   5 years in system administration
+-   5 years in system administration.
 
 ### Freelance, Jun 2016 – now (over 9 years)
-#### ceet AI (AI-powered legal document recommendation system), Germany, Senior Python Developer, Sep 2024 – now (over 10 months)
--   Developed a backend for user preference AI-powered semantic search (embeddings) based legal
-    documents matching system.
 
--   Python 3.12, Django, Django REST framework, FastAPI, PostgreSQL, Redis, Qdrant, Traefik, OpenAI
-    API (Chat Completion, Responses, Assistant) and a [common toolset](#common-toolset)
+#### ESAI (AI-powered education and career platform), [*esai.ai*](https://esai.ai/), USA, Senior Python Developer, Oct 2025 – now (6 months)
+-   Developed backend functionality for an AI-powered education and career platform: school and job
+    brand generation, user wiki and memory flows, voice assistant and SMS conversations, job search
+    MCP / REST APIs, and external service integrations.
+
+-   Built and optimized a dedicated job service: Fantastic Jobs and USAJOBS synchronization,
+    semantic and Elasticsearch-backed search, location radius filtering, expired job cleanup,
+    background processing, deployment automation, and production reliability improvements.
+
+-   Python 3.14, Django 5 / 6, Django REST framework, Celery, Pydantic, PostgreSQL, Elasticsearch,
+    OpenAI API, Twilio API, Vapi API, Stripe API, Keycloak, Codex, Claude Code, AWS (ECS, RDS, S3,
+    CloudFront, Route 53), Terraform, Pulumi, Docker, uv, gunicorn, uvicorn and
+    other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### ReturnZap (returns Shopify application), [*returnzap.com*](https://returnzap.com), USA, Senior Python Developer, Jul 2023 – now (over 2 years)
 -   Implemented new features and enhancements on the existing codebase of the Shopify application
     for submitting and managing e-commerce returns.
 
--   Implemented new features and enhancements on the existing codebase of the Shopify application
-    for submitting and managing e-commerce returns.
-
--   Python 3.10, Django 3.2, Celery, Graphene, React, PostgreSQL, Redis, GraphQL, Shopify API,
-    Easypost API, Shippo API, Sendcloud API, gunicorn and a [common toolset](#common-toolset)
+-   Python 3.10, Django 3.2, Celery, Graphene, React, PostgreSQL, Redis, Codex, Claude Code, GraphQL, Shopify API,
+    Easypost API, Shippo API, Sendcloud API, gunicorn and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### Openrent (car rental), France, Senior Python Developer, May 2023 – now (over 2 years)
 -   Developed a car photo management software. Supported, maintained, and added more features to a
     car business process management Telegram bot.
 
 -   Python 3.11, PostgreSQL, SQL, Dropbox API, Telegram API, Plate Recognizer API, Getaround API,
-    Pennylane API, JPEG and EXIF, AWS (EC2, RDS, Lambda, API Gateway) and a [common
-    toolset](#common-toolset)
+    Pennylane API, JPEG and EXIF, AWS (EC2, RDS, Lambda, API Gateway) and other items from my preferred [technology
+    stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
-#### thenewboston (blockchain), [*thenewboston.com*](https://thenewboston.com), USA, Team Leader / Senior Python Developer, Feb 2021 – now (2+ years excluding gaps)
+#### ceet AI (AI-powered legal document recommendation system), Germany, Senior Python Developer, Sep 2024 – Mar 2026 (1 year 6 months)
+-   Developed a backend for user preference AI-powered semantic search (embeddings) based legal
+    documents matching system.
+
+-   **Client’s feedback:** *"Dmitry is a reliable senior backend developer who took ownership of a Python/Django + FastAPI codebase and kept it running. He works independently, communicates clearly, and delivers what he commits to. Solid understanding of PostgreSQL, Docker, and API design. Would work with him again."*
+
+-   Python 3.12, Django, Django REST framework, FastAPI, PostgreSQL, Redis, Qdrant, Traefik, OpenAI
+    API (Chat Completion, Responses, Assistant), Codex, Claude Code and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
+
+#### thenewboston (blockchain), [*thenewboston.com*](https://thenewboston.com), USA, Team Leader / Senior Python Developer, Feb 2021 – Sep 2025 (2+ years excluding gaps)
 -   Developed distributed proof of stake blockchain-based cryptocurrency – TNBC, distributed
     communication backend, and Python client-side library.
 
--   **Source code** (validate authorship of the most of the lines with `git blame`):
+-   **Source code** (validate authorship of most lines with `git blame`):
 
     -   <https://github.com/thenewboston-developers/Core>
         ([*fork*](https://github.com/dmugtasimov/Core),
-        [*copy*](https://github.com/dmugtasimov/Core-copy))
+        [*copy*](https://github.com/dmugtasimov/Core-copy)).
 
     -   <https://github.com/thenewboston-developers/Node>
         ([*fork*](https://github.com/dmugtasimov/Node),
-        [*copy*](https://github.com/dmugtasimov/Node-copy))
+        [*copy*](https://github.com/dmugtasimov/Node-copy)).
 
     -   <https://github.com/thenewboston-blockchain/thenewboston-node>
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
-        [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy))
+        [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy)).
 
-    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>.
 
 -   **Client’s feedback:** *"Dmitry was one of the best developers we have ever worked with. Quality
     of work was excellent, communication was great, and he is extremely knowledgeable in many areas
@@ -71,7 +116,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   Python 3.13, Django, Django REST framework, Django Channels, Djongo, Celery, Pydantic, MongoDB,
     PostgreSQL, Redis, RabbitMQ, OpenAI API (chat completion, image generation), PromptLayer API,
-    WebSockets, MessagePack, daphne, AWS (EC2, Route 53) and a [common toolset](#common-toolset)
+    WebSockets, MessagePack, daphne, AWS (EC2, Route 53) and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### PromptLayer (workbench for AI engineering), [*promptlayer.com*](https://promptlayer.com), USA, Senior Python Developer / DevOps, Oct 2024 – May 2025 (7 months)
 -   Performance optimization of high-load system under heavy load while maintaining zero downtime
@@ -91,16 +136,16 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     to work with Dmitry again and cannot recommend him highly enough for technically complex
     projects requiring exceptional problem-solving skills."*
 
--   Python 3.12, Flask, SQLAlchemy, RQ, Celery, PostgreSQL, SQL, Redis, Render and a [common
-    toolset](#common-toolset)
+-   Python 3.12, Flask, SQLAlchemy, RQ, Celery, PostgreSQL, SQL, Redis, Render and other items from my preferred
+    [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
-#### Guidable (AI-powered eduction platform), USA, Senior Python Developer, Sep 2024 – Oct 2024 (1 month)
+#### Guidable (AI-powered education platform), USA, Senior Python Developer, Sep 2024 – Oct 2024 (1 month)
 -   Developed a backend for a guidable AI-backed chat with podcasts and blog posts.
 
--   **Client’s feedback:** 5 stars
+-   **Client’s feedback:** 5 stars.
 
--   Python 3.12, Django, Django REST framework, PostgreSQL, Traefik, OpenAI Assistant API and a
-    [common toolset](#common-toolset)
+-   Python 3.12, Django, Django REST framework, PostgreSQL, Traefik, OpenAI Assistant API and other items from my
+    preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### ShyftOff (call center outsourcer), [*shyftoff.com*](https://shyftoff.com), USA, Senior Python Developer, Jun 2023 – May 2024 (1 year)
 -   Developed a call center agent facing software: agent performance stats, campaign application and
@@ -112,14 +157,14 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   Python 3.11, FastAPI (fully async), SQLAlchemy (fully async), Django 5, Pydantic, Alembic,
     PostgreSQL, OpenAI API (embeddings, chat completion), Twilio API (calls, SMS), WebSockets,
-    uvicorn, Terraform, AWS (ECS, RDS, Lambda, Cognito) and a [common toolset](#common-toolset)
+    uvicorn, Terraform, AWS (ECS, RDS, Lambda, Cognito) and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### Suno Software Inc. (healthcare: audiology), [*suno.tech*](https://suno.tech), USA, Team Leader / Senior Python Developer, Jul 2022 – Mar 2023 (8 months)
 -   Developed audiology clinics business process automation SaaS.
 
 -   Python 3.10, Django, Django REST framework, Django Channels, Celery, Pydantic, PostgreSQL,
-    Twilio API, Tilled API, JustiFi API, Claim.md API, Box API, daphne, AWS (RDS, ECS, SES, CDK) and
-    a [common toolset](#common-toolset)
+    Twilio API, Tilled API, JustiFi API, Claim.md API, Box API, daphne, AWS (RDS, ECS, SES, CDK) and other items from
+    my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### Lehner Investments (trading), `lehnerinvestments.com`, Germany, **Senior Python Developer**, Aug 2020 – Apr 2022 (1 year 8 months)
 -   Developed microservice architecture (9 microservices) mutual fund trading system backend.
@@ -131,23 +176,23 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     definitely recommend to work with Dmitry."*
 
 -   Python 3.9, nameko, Django, Django REST framework, PostgreSQL, RabbitMQ, pandas, numpy, SendGrid
-    API, WebSockets, socket.io and a [common toolset](#common-toolset)
+    API, WebSockets, socket.io and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### The Convenience App (e-commerce retail application), USA, Senior Python Developer, Mar 2021 – Feb 2022 (1 year)
 -   Developed a REST API backend for mobile (Android and iOS) curbside pickup application.
 
--   **Client’s feedback:** 5 stars
+-   **Client’s feedback:** 5 stars.
 
 -   Python 3.9, Django, Django REST Framework, Celery, PostgreSQL, Stripe API, SendGrid API, Twilio
-    API, Google Maps API, gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
+    API, Google Maps API, gunicorn, Heroku, AWS S3 and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### Medical Device Risks (healthcare), USA, Senior Python Developer, Aug 2020 – Jul 2021 (1 year)
 -   Developed a REST API backend for medical device risks management single page application.
 
--   **Client’s feedback:** *"Brilliant Engineer to work with. Highly recommended"*
+-   **Client’s feedback:** *"Brilliant Engineer to work with. Highly recommended"*.
 
 -   Python 3.8, Django, Django REST Framework, Celery, PostgreSQL, Full-text search, SendGrid API,
-    gunicorn, Heroku, AWS S3 and a [common toolset](#common-toolset)
+    gunicorn, Heroku, AWS S3 and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### 7 Cheetahs (automated trading), [*7cheetahs.com*](https://7cheetahs.com), Canada, Team Leader / Senior Python Developer, Aug 2019 – Apr 2020 (9 months)
 -   Refactored to microservice architecture and developed a futures trading system. Managed a remote
@@ -157,29 +202,29 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     period. He communicates well, has tons of experience, will bring a deep understanding of
     architecture and design to your platform, as well as implement it in a clean way (he’s written a
     blog post on code conventions and style), and work within your procedural framework to
-    accomplish your goals. Again, you won’t find a better hire on Upwork. A+"*
+    accomplish your goals. Again, you won’t find a better hire on Upwork. A+."*
 
 -   Python 3.7, Django, MongoDB, PostgreSQL, logstash (ELK), RabbitMQ, pandas, numpy, IQFeed API,
-    InteractiveBrokers API, nginx, uWSGI, git, pytest, Jenkins, PyCharm, Linux (Ubuntu), Windows
+    InteractiveBrokers API, nginx, uWSGI, git, pytest, Jenkins, PyCharm, Linux (Ubuntu), Windows.
 
 #### Dolphin, Inc. (job search), `splashwithdolphin.com`, USA, Senior Python Developer, Feb 2019 – Jan 2021 (1 year 11 months)
 -   Developed a REST API backend for iOS job search and recommendation application.
 
--   **Client’s feedback:** *"It’s always a pleasure working with Dmitry. Amazing work as usual"*
+-   **Client’s feedback:** *"It’s always a pleasure working with Dmitry. Amazing work as usual"*.
 
 -   Python 3.7, Django, Django REST Framework, Scrapy, Celery, SQL, PostgreSQL, Full-text search,
     RabbitMQ, HTML / CSS/ JavaScript / jQuery, gunicorn, Heroku, AWS S3, SendGrid API, pipenv,
-    pylint and a [common toolset](#common-toolset)
+    pylint and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### we love data sp. z o.o (email marketing), Poland, Database Developer, Jan 2019 – Sep 2019 (9 months)
 -   Database structure and SQL-queries optimization for email subscription service with about 40
     million subscribers.
 
--   **Client’s feedback:** 5 stars
+-   **Client’s feedback:** 5 stars.
 
--   PostgreSQL 11, SQL
+-   PostgreSQL 11, SQL.
 
-#### Packy (network monitoring), New Zeland, **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
+#### Packy (network monitoring), New Zealand, **Senior Python Developer**, Jun 2017 – Aug 2019 (2 years 2 months)
 -   Implemented 3 backend components (REST API server, WAMP / WebSockets API server, monitoring
     agent) of distributed network monitoring system.
 
@@ -190,7 +235,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 3.7, Python 2.7, Django, Django REST Framework, Flask, Crossbar, Celery, gevent, HTML,
     JavaScript, PostgreSQL, RabbitMQ, Schematics, WAMP, WebSockets, raw sockets (IP, ICMP, and UDP
     protocols), Raspbian, Armbian, Raspberry Pi 3 Model B/B+, Orange Pi Zero, AWS (EC2, RDS, S3,
-    ElastiCache, SES) and a [common toolset](#common-toolset)
+    ElastiCache, SES) and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### CreditSCRIPT (finances), [*www.creditscript.com*](https://www.creditscript.com), Madagascar / UK, Senior Python Developer, Jan 2017 – Sep 2017 (9 months)
 -   Developed 10 high performance loan bidding micro-services integrated via Kafka bus.
@@ -200,7 +245,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   Python 3.5, Python 2.7, Flask, Flask-GraphQL, Flask-RESTful, SQLAlchemy, Alembic, Graphene,
     Schematics, gevent, asynchronous programming, PostgreSQL, MySQL, Cassandra, Kafka, RabbitMQ,
-    GraphQL, Prosper API, Docker, git, PyCharm, Linux (Ubuntu)
+    GraphQL, Prosper API, Docker, git, PyCharm, Linux (Ubuntu).
 
 #### Trounceflow (finances), `www.trounceflow.com`, UK, Python Team Leader, Dec 2016 – May 2017 (6 months)
 -   Managed a team of Python developers and refactored a web scraping backend for financial data
@@ -210,19 +255,19 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     Dmitry!"*
 
 -   Python 3.5, Django 1.10, PostgreSQL, SQLITE3, Schematics, HTML, PDF and XLS/XLSX data scraping
-    and parsing, Heroku, AWS S3, git, PyCharm, Linux (Ubuntu)
+    and parsing, Heroku, AWS S3, git, PyCharm, Linux (Ubuntu).
 
-#### Semilimes (SaaS ERP), Switzerland, Senior Python Developer, Oct 2017 – Jan 2017 (4 months)
+#### Semilimes (SaaS ERP), Switzerland, Senior Python Developer, Oct 2017 – Jan 2018 (4 months)
 -   Developed backend and frontend of SaaS ERP on-boarding questionnaire with Flask and
     SQLAlchemy.
 
--   **Client’s feedback:** 5 stars
+-   **Client’s feedback:** 5 stars.
 
 -   Python 2.7, Python 3.5, Tryton, Flask, Django, Django REST Framework, Jinja2, HTML, JavaScript,
-    CSS, jQuery, JSON-RPC, XML, Werkzeug, git, PyCharm, Linux (Ubuntu)
+    CSS, jQuery, JSON-RPC, XML, Werkzeug, git, PyCharm, Linux (Ubuntu).
 
 #### Carpe (finances), [*www.carpe.com*](https://www.carpe.com), USA, Senior Python Developer, Jul 2016 – Jan 2017 (7 months)
--   Developed a high performance Falcon-based and ZeroRPC-based backend servers for a personal
+-   Developed high performance Falcon-based and ZeroRPC-based backend servers for a personal
     finance management company.
 
 -   **Client’s feedback:** *"Dmitry is an experienced Python developer, with great English skills
@@ -233,7 +278,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 -   Python 2.7, Python 3.5, PyPy2.7, Cython, Lua, JavaScript, SQL, JSON, MessagePack, HTML, Falcon,
     gevent, gunicorn, uWSGI, SQLAlchemy, Alembic, Schematics, PeeWee, PostgreSQL 9.5, Redis, ZeroMQ,
     ZeroRPC, Linux (Ubuntu), AWS EC2/S3, nginx, Supervisor, boto3, git, PyCharm, Asana, unittest,
-    pytest
+    pytest.
 
 #### Diamond Mine (bioinformatics), `diamondmine.io`, USA, Senior Python Developer, Jun 2016 – Nov 2016 (6 months)
 -   Developed backend and frontend for a web application to find correlation in user submitted blood
@@ -245,7 +290,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
     shines through."*
 
 -   Python 2.7, Python 3.5, Django 1.9, Celery, pandas, SQL, PostgreSQL, RabbitMQ, MessagePack,
-    nginx, uWSGI, git, PyCharm, Linux (Ubuntu)
+    nginx, uWSGI, git, PyCharm, Linux (Ubuntu).
 
 ### Platform T (Uber-like taxi service startup seed funded by SAPRUN, [*www.saprun.com*](https://www.saprun.com)), Russia / Moscow, Python Team Leader and Software Architect, Jun 2015 – Aug 2016 (1 year 2 months)
 -   Designed a horizontally scalable system architecture of an Uber-like taxi business automation
@@ -260,13 +305,13 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 -   Developed and refactored backend part of the system.
 
--   Participated in the project management to fill the gaps of project manager’s experience and
-    skills on managing an agile startup project
+-   Participated in project management to fill the gaps of project manager’s experience and
+    skills on managing agile startup project.
 
 Python 2.7, Django 1.8, Django REST Framework 3.3, Crossbar, Autobahn, Twisted, Tornado, Celery,
 Asterisk, SQL, PostgreSQL, Redis, RabbitMQ, uWSGI, nginx, Odoo, HTTP, WAMP over WebSockets, SIP,
 JSON, YAML, HTML / CSS / JavaScript, git, PyCharm, Jira, Jenkins, Ansible, unittest, Behave, Linux
-(Ubuntu 14.04)
+(Ubuntu 14.04).
 
 ### Lamoda (largest Russia and CIS fashion e-commerce company, [*www.lamoda.ru*](https://www.lamoda.ru)), Russia / Moscow, Senior Python Developer, Mar 2012 – Jun 2015 (3 years 3 months)
 -   Developed largest Russia and CIS fashion e-commerce website backend from scratch (as a member of
@@ -282,93 +327,106 @@ JSON, YAML, HTML / CSS / JavaScript, git, PyCharm, Jira, Jenkins, Ansible, unitt
 
 Python 2.7, SQLAlchemy, Spyne, Tornado, Django, jQuery, SQL, Java, JavaScript, PostgreSQL, MySQL,
 Solr, Sphinx, Redis, uWSGI, nginx, HTTP, SOAP, JSON, XML, HTML, CSS, git, PyCharm, Jira, Jenkins,
-maven, Apache Tomcat, Linux (Ubuntu, Debian)
+maven, Apache Tomcat, Linux (Ubuntu, Debian).
 
 ### Other
 -   Govoritter, `govoritter.com`, Russia / Moscow, startup project (Python technology stack), Aug
-    2011 – Mar 2012 (7 months)
+    2011 – Mar 2012 (7 months).
 
 -   Grid Dynamics, [*www.griddynamics.com*](https://www.griddynamics.com), Russia / Moscow / USA, QA
-    Lead, Aug 2010 – Aug 2011 (1 year)
+    Lead, Aug 2010 – Aug 2011 (1 year).
 
 -   Neoflex, [*www.neoflex.ru*](https://www.neoflex.ru), Russia / Moscow, Head of Software Testing
-    Department, Feb 2008 – May 2010 (2 years 3 months)
+    Department, Feb 2008 – May 2010 (2 years 3 months).
 
 -   Google Inc. (contract), [*www.google.com*](https://www.google.com), Russia / Moscow,
-    Localization Testing Specialist, Jul 2007 – Feb 2008 (8 months)
+    Localization Testing Specialist, Jul 2007 – Feb 2008 (8 months).
 
 -   Amphora Group, `www.amphora-group.ru`, Russia / Moscow, Senior Quality Engineer, May 2003 – Jul
-    2007 (4 years 2 months)
+    2007 (4 years 2 months).
 
--   Microtest, `www.microtest.ru`, Russia / Moscow, Test Engineer, Dec 2002 – Mar 2003 (3 months)
+-   Microtest, `www.microtest.ru`, Russia / Moscow, Test Engineer, Dec 2002 – Mar 2003 (3 months).
 
 -   Trinity Logic Corp., `www.tl-c.ru`, Russia / Moscow, Oracle Database Administrator, Developer,
-    Jan 2002 – Dec 2002 (1 year)
+    Jan 2002 – Dec 2002 (1 year).
 
 -   Altyn Ay, Russia / Almetyevsk, Programmer / Senior System Administrator, Jul 1996 – May 2001 (4
-    years 10 months)
-
-## Common Toolset
-pyenv, Poetry, pytest, Sentry, git, pre-commit, make, shell scripts, flake8, yapf, Black, isort,
-mypy, Docker, Docker Compose, PyCharm, Linux (Ubuntu)
+    years 10 months).
 
 ## Education and Non-technical Skills
--   June 2006, MSTU "Stankin", Master of Technics and Technology Diploma (with honors)
+-   June 2006, MSTU "Stankin", Master of Technics and Technology Diploma (with honors).
 
 -   Fluent English (IELTS: 7.0, 2009), native Russian, knowledge in accounting and banking,
-    lecturing, presentation and public speaking experience, driving license (cat. B)
+    lecturing, presentation and public speaking experience, driving license (cat. B).
 
 ## Links
--   Upwork profile: <https://www.upwork.com/fl/dmugtasimov>
+-   Up-to-date version of this resume: <https://github.com/dmugtasimov/resume>.
 
--   Stack Overflow: <https://stackoverflow.com/users/1952977/dmitry-mugtasimov>
+-   Upwork profile: <https://www.upwork.com/fl/dmugtasimov>.
 
--   GitHub: <https://github.com/dmugtasimov>
+-   Stack Overflow: <https://stackoverflow.com/users/1952977/dmitry-mugtasimov>.
 
--   Open source code (validate authorship of the most of the lines with `git blame`):
+-   GitHub: <https://github.com/dmugtasimov>.
+
+-   Open source code (validate authorship of most lines with `git blame`):
 
     -   <https://github.com/thenewboston-developers/Core>
         ([*fork*](https://github.com/dmugtasimov/Core),
-        [*copy*](https://github.com/dmugtasimov/Core-copy))
+        [*copy*](https://github.com/dmugtasimov/Core-copy)).
 
     -   <https://github.com/thenewboston-developers/Node>
         ([*fork*](https://github.com/dmugtasimov/Node),
-        [*copy*](https://github.com/dmugtasimov/Node-copy))
+        [*copy*](https://github.com/dmugtasimov/Node-copy)).
 
     -   <https://github.com/thenewboston-blockchain/thenewboston-node>
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
-        [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy))
+        [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy)).
 
-    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>.
 
 -   YouTube channels:
 
-    -   About Python development: <https://www.youtube.com/@python-talks-dmitry-mugtasimov>
+    -   About Python development: <https://www.youtube.com/@python-talks-dmitry-mugtasimov>.
 
-    -   About Machine Learning: <https://www.youtube.com/@ML-with-Dmitry-Mugtasimov>
+    -   About Machine Learning: <https://www.youtube.com/@ML-with-Dmitry-Mugtasimov>.
 
 -   Technical blog in English: <https://dmugtasimov-tech.blogspot.com/>. Notable posts:
 
     -   My Python software development practices:
-        <https://dmugtasimov-tech.blogspot.ru/2016/12/my-python-software-development-practices.html>
+        <https://dmugtasimov-tech.blogspot.ru/2016/12/my-python-software-development-practices.html>.
 
     -   Pascal’s Triangle (detailed description of optimization techniques for an academic task from
         Python code optimization to refactoring to Assembler):
-        <https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html>
+        <https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html>.
 
     -   My closed source repositories statistics:
-        <https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html>
+        <https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html>.
 
 -   Publications in Russian:
 
-    -   Technical blog in Russian: <https://dmugtasimov-pro.livejournal.com>
+    -   Technical blog in Russian: <https://dmugtasimov-pro.livejournal.com>.
 
-    -   Habrahabr: <https://habrahabr.ru/users/dmugtasimov/topics/>
+    -   Habrahabr: <https://habrahabr.ru/users/dmugtasimov/topics/>.
 
         -   Software development practices of one particular Python-developer, 2014:
-            <https://habrahabr.ru/post/233699/>
+            <https://habrahabr.ru/post/233699/>.
 
         -   About Python import packages and modules search, 2013:
-            <https://habrahabr.ru/post/166463/>
+            <https://habrahabr.ru/post/166463/>.
 
--   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>
+-   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>.
+
+## References
+
+<a id="1"></a>
+
+### 1
+- Top Rated Plus - <https://support.upwork.com/hc/en-us/articles/360050417233-Top-Rated-Plus>.
+- Expert-Vetted - <https://support.upwork.com/hc/en-us/articles/360049625454-Expert-Vetted-talent>.
+- Job Success Score - <https://support.upwork.com/hc/en-us/articles/38437362753171-What-is-a-Job-Success-Score>.
+
+### 2
+
+<a id="2"></a>
+
+- For "technology stack" see <https://github.com/dmugtasimov/python-best-practices#technology-stack>.

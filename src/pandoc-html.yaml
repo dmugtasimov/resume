@@ -1,7 +1,6 @@
 from: markdown-citations
 to: html5
 standalone: true
-template: src/pandoc-pdf-template.html
 metadata:
   title: Dmitry Mugtasimov
 css:
