@@ -108,8 +108,7 @@ standards before delivery.
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
         [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy)).
 
-    -   <https://github.com/thenewboston-developers/thenewboston-Backend>.
-
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
 -   **Client’s feedback:** *"Dmitry was one of the best developers we have ever worked with. Quality
     of work was excellent, communication was great, and he is extremely knowledgeable in many areas
     of software development. Highly recommended!"*
@@ -360,14 +359,10 @@ maven, Apache Tomcat, Linux (Ubuntu, Debian).
     lecturing, presentation and public speaking experience, driving license (cat. B).
 
 ## Links
--   Up-to-date version of this resume: <https://github.com/dmugtasimov/resume>.
-
--   Upwork profile: <https://www.upwork.com/fl/dmugtasimov>.
-
--   Stack Overflow: <https://stackoverflow.com/users/1952977/dmitry-mugtasimov>.
-
--   GitHub: <https://github.com/dmugtasimov>.
-
+-   Up-to-date version of this resume: <https://github.com/dmugtasimov/resume>
+-   Upwork profile: <https://www.upwork.com/fl/dmugtasimov>
+-   Stack Overflow: <https://stackoverflow.com/users/1952977/dmitry-mugtasimov>
+-   GitHub: <https://github.com/dmugtasimov>
 -   Open source code (validate authorship of most lines with `git blame`):
 
     -   <https://github.com/thenewboston-developers/Core>
@@ -382,51 +377,40 @@ maven, Apache Tomcat, Linux (Ubuntu, Debian).
         ([*fork*](https://github.com/dmugtasimov/thenewboston-node),
         [*copy*](https://github.com/dmugtasimov/thenewboston-node-copy)).
 
-    -   <https://github.com/thenewboston-developers/thenewboston-Backend>.
-
+    -   <https://github.com/thenewboston-developers/thenewboston-Backend>
 -   YouTube channels:
 
-    -   About Python development: <https://www.youtube.com/@python-talks-dmitry-mugtasimov>.
-
-    -   About Machine Learning: <https://www.youtube.com/@ML-with-Dmitry-Mugtasimov>.
-
+    -   About Python development: <https://www.youtube.com/@python-talks-dmitry-mugtasimov>
+    -   About Machine Learning: <https://www.youtube.com/@ML-with-Dmitry-Mugtasimov>
 -   Technical blog in English: <https://dmugtasimov-tech.blogspot.com/>. Notable posts:
 
     -   My Python software development practices:
-        <https://dmugtasimov-tech.blogspot.ru/2016/12/my-python-software-development-practices.html>.
-
+        <https://dmugtasimov-tech.blogspot.ru/2016/12/my-python-software-development-practices.html>
     -   Pascal’s Triangle (detailed description of optimization techniques for an academic task from
         Python code optimization to refactoring to Assembler):
-        <https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html>.
-
+        <https://dmugtasimov-tech.blogspot.ru/2016/02/pascals-triangle.html>
     -   My closed source repositories statistics:
-        <https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html>.
-
+        <https://dmugtasimov-tech.blogspot.ru/2017/04/my-repo-stats.html>
 -   Publications in Russian:
 
-    -   Technical blog in Russian: <https://dmugtasimov-pro.livejournal.com>.
-
-    -   Habrahabr: <https://habrahabr.ru/users/dmugtasimov/topics/>.
-
+    -   Technical blog in Russian: <https://dmugtasimov-pro.livejournal.com>
+    -   Habrahabr: <https://habrahabr.ru/users/dmugtasimov/topics/>
         -   Software development practices of one particular Python-developer, 2014:
-            <https://habrahabr.ru/post/233699/>.
-
+            <https://habrahabr.ru/post/233699/>
         -   About Python import packages and modules search, 2013:
-            <https://habrahabr.ru/post/166463/>.
-
--   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>.
-
+            <https://habrahabr.ru/post/166463/>
+-   LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>
 ## References
 
 <a id="1"></a>
 
 ### 1
-- Top Rated Plus - <https://support.upwork.com/hc/en-us/articles/360050417233-Top-Rated-Plus>.
-- Expert-Vetted - <https://support.upwork.com/hc/en-us/articles/360049625454-Expert-Vetted-talent>.
-- Job Success Score - <https://support.upwork.com/hc/en-us/articles/38437362753171-What-is-a-Job-Success-Score>.
-
-### 2
+- Top Rated Plus - <https://support.upwork.com/hc/en-us/articles/360050417233-Top-Rated-Plus>
+- Expert-Vetted - <https://support.upwork.com/hc/en-us/articles/360049625454-Expert-Vetted-talent>
+- Job Success Score - <https://support.upwork.com/hc/en-us/articles/38437362753171-What-is-a-Job-Success-Score>
 
 <a id="2"></a>
 
-- For "technology stack" see <https://github.com/dmugtasimov/python-best-practices#technology-stack>.
+### 2
+
+- For "technology stack" see <https://github.com/dmugtasimov/python-best-practices#technology-stack>
