@@ -116,7 +116,7 @@ release:
 	$(MAKE) tag name=$$version && \
 	$(MAKE) tag-latest && \
 	git push origin $$version && \
-	git push latest -f
+	git push origin latest -f
 
 .PHONY: codex-unleashed
 codex-unleashed:
