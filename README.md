@@ -7,7 +7,7 @@ Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
 
 ***Top Rated Plus[¹](#1)** and **Expert-Vetted[¹](#1)** • **100%** Job Success Score[¹](#1)\
 **27 years** of experience • **7400+ hours** worked across **32 jobs** on Upwork\
-Outstanding feedback from clients • Fluent English.*
+Outstanding feedback from clients • Fluent English*
 
 AI-first senior engineer applying AI across the full software delivery lifecycle — from code generation and
 testing to review, refactoring, debugging, and system operations. This amplifies already strong engineering fundamentals,
