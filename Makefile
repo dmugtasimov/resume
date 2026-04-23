@@ -112,12 +112,11 @@ release:
 		printf 'Same or higher version tag already exists: %s.\n' "$$highest_existing_version"; \
 		printf 'Please bump version in ./.version.\n\n\n'; \
 		exit 1; \
-	fi
-#	fi && \
-#	$(MAKE) tag name=$$version && \
-#	$(MAKE) tag-latest && \
-#	git push origin $$version && \
-#	git push latest -f
+	fi && \
+	$(MAKE) tag name=$$version && \
+	$(MAKE) tag-latest && \
+	git push origin $$version && \
+	git push latest -f
 
 .PHONY: codex-unleashed
 codex-unleashed:
