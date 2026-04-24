@@ -361,7 +361,7 @@ maven, Apache Tomcat, Linux (Ubuntu, Debian).
 
 ## Professional Profiles
 - Upwork profile: <https://www.upwork.com/fl/dmugtasimov>
-- LinkedIn: <https://www.linkedin.com/in/dmugtasimov/>
+- LinkedIn: <https://www.linkedin.com/in/dmugtasimov>
 - Stack Overflow: <https://stackoverflow.com/users/1952977/dmitry-mugtasimov>
 - GitHub: <https://github.com/dmugtasimov>
 
