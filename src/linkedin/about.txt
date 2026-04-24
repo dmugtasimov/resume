@@ -1,0 +1,18 @@
+Top Rated Plus and Expert-Vetted - 100% Job Success Score
+27 years of experience - 7400+ hours worked across 32 jobs on Upwork
+Outstanding feedback from clients - Fluent English
+
+AI-first senior engineer applying AI across the full software delivery lifecycle - from code generation and testing to review, refactoring, debugging, and system operations. This amplifies already strong engineering fundamentals, system design judgment, and problem-solving ability, consistently delivering faster and higher-quality outcomes.
+
+All outputs - including AI-assisted work - are manually reviewed, refined, and validated to production quality
+standards before delivery.
+
+Key Strengths
+
+- Senior Python backend engineer with rare cross-functional depth in architecture, development, databases, DevOps, QA, management and system administration.
+- Proven ownership of complex production systems: API backends, microservices, SaaS platforms, high-load systems, distributed systems, search systems, and AI-powered products.
+- Strong system design and scalability background: performance optimization, zero-downtime upgrades, database optimization, asynchronous processing, WebSockets, queues, and cloud infrastructure.
+- Deep Python ecosystem expertise: Django, Django REST framework, FastAPI, Flask, SQLAlchemy, Celery, Pydantic, PostgreSQL, Redis, RabbitMQ, Elasticsearch, and modern Python tooling.
+- Practical AI engineering experience with OpenAI API, embeddings, semantic search, AI assistants, voice assistants, LLM-powered workflows, and production AI integrations.
+- Business-focused senior contributor who can join an existing codebase, identify bottlenecks, propose multiple viable solutions, and deliver maintainable production changes independently.
+- Leadership-level communication: remote team leadership, architecture decisions, code review, hiring, release management, clear client communication, and consistently strong client feedback.
