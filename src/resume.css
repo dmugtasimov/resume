@@ -70,6 +70,10 @@ a {
     text-align: center;
 }
 
+.resume-build-info {
+    text-align: center;
+}
+
 blockquote {
     border-left: 2px solid #d0d0d0;
     margin-left: 0;

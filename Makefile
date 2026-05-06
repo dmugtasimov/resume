@@ -2,7 +2,11 @@ PRE_COMMIT_VERSION := 4.5.1
 PYPANDOC_BINARY_VERSION := 1.17
 WEASYPRINT_VERSION := 68.1
 BUILD_DIR := build
+BUILD_DATE := $(shell date '+%Y-%m-%d')
+VERSION := $(shell cat .version)
 TEMPORARY_HTML_FILE := /tmp/.resume-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.html
+TEMPORARY_HTML_MARKDOWN_FILE := /tmp/.resume-html-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.md
+TEMPORARY_PDF_MARKDOWN_FILE := /tmp/.resume-pdf-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.md
 GREEN := \033[0;32m
 RESET := \033[0m
 msg ?= $(shell date '+%Y-%m-%d %H:%M:%S')
@@ -13,6 +17,7 @@ help:
 
 Makefile: ;
 README.md: ;
+.version: ;
 src/pandoc.yaml: ;
 src/pandoc-html.yaml: ;
 src/pandoc-pdf-template.html: ;
@@ -58,16 +63,19 @@ setup: install-uv install-pre-commit install-pandoc install-weasyprint ;
 $(BUILD_DIR)/:
 	mkdir -p $(BUILD_DIR)
 
-$(BUILD_DIR)/dmugtasimov-resume.md: README.md Makefile | $(BUILD_DIR)/
-	cp README.md $(BUILD_DIR)/dmugtasimov-resume.md
+$(BUILD_DIR)/dmugtasimov-resume.md: README.md .version Makefile | $(BUILD_DIR)/
+	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(BUILD_DIR)/dmugtasimov-resume.md
 
-$(BUILD_DIR)/dmugtasimov-resume.pdf: README.md src/pandoc.yaml src/pandoc-pdf-template.html src/resume.css Makefile | $(BUILD_DIR)/
-	trap 'rm -f "$(TEMPORARY_HTML_FILE)"' EXIT && \
-	$(MAKE) run-pandoc args='--defaults=src/pandoc.yaml README.md -o $(TEMPORARY_HTML_FILE)' && \
+$(BUILD_DIR)/dmugtasimov-resume.pdf: README.md .version src/pandoc.yaml src/pandoc-pdf-template.html src/resume.css Makefile | $(BUILD_DIR)/
+	trap 'rm -f "$(TEMPORARY_HTML_FILE)" "$(TEMPORARY_PDF_MARKDOWN_FILE)"' EXIT && \
+	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(TEMPORARY_PDF_MARKDOWN_FILE) && \
+	$(MAKE) run-pandoc args='--defaults=src/pandoc.yaml $(TEMPORARY_PDF_MARKDOWN_FILE) -o $(TEMPORARY_HTML_FILE)' && \
 	$(MAKE) run-weasyprint args='--base-url "$(CURDIR)" "$(TEMPORARY_HTML_FILE)" $(BUILD_DIR)/dmugtasimov-resume.pdf'
 
-$(BUILD_DIR)/dmugtasimov-resume.html: README.md src/pandoc-html.yaml src/resume.css Makefile | $(BUILD_DIR)/
-	$(MAKE) run-pandoc args='--embed-resources --defaults=src/pandoc-html.yaml README.md -o $(BUILD_DIR)/dmugtasimov-resume.html'
+$(BUILD_DIR)/dmugtasimov-resume.html: README.md .version src/pandoc-html.yaml src/resume.css Makefile | $(BUILD_DIR)/
+	trap 'rm -f "$(TEMPORARY_HTML_MARKDOWN_FILE)"' EXIT && \
+	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(TEMPORARY_HTML_MARKDOWN_FILE) && \
+	$(MAKE) run-pandoc args='--embed-resources --defaults=src/pandoc-html.yaml $(TEMPORARY_HTML_MARKDOWN_FILE) -o $(BUILD_DIR)/dmugtasimov-resume.html'
 
 .PHONY: build-md
 build-md: $(BUILD_DIR)/dmugtasimov-resume.md

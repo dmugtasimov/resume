@@ -284,4 +284,6 @@ Python 2.7, SQLAlchemy, Spyne, Tornado, Django, jQuery, SQL, Java, JavaScript, P
 ### 2
 - For "technology stack" see <https://github.com/dmugtasimov/python-best-practices#technology-stack>
 
-<p class="resume-source-link"><a href="https://github.com/dmugtasimov/resume">https://github.com/dmugtasimov/resume</a></p>
+<p align="center" class="resume-source-link"><a href="https://github.com/dmugtasimov/resume">https://github.com/dmugtasimov/resume</a></p>
+
+<p align="center" class="resume-build-info">{{VERSION}} | {{DATE}}</p>
