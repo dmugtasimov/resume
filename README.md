@@ -63,7 +63,7 @@ All outputs — including AI-assisted work — are manually reviewed, refined, a
 
 - **Client’s feedback:** *"Dmitry is a reliable senior backend developer who took ownership of a Python/Django + FastAPI codebase and kept it running. He works independently, communicates clearly, and delivers what he commits to. Solid understanding of PostgreSQL, Docker, and API design. Would work with him again."*
 
-- Python 3.12, Django, Django REST framework, FastAPI, PostgreSQL, Redis, Qdrant, Traefik, OpenAI API (Chat Completion, Responses, Assistant), Codex, Claude Code and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
+- Python 3.12, Django, Django REST framework, FastAPI, React, PostgreSQL, Redis, Qdrant, Traefik, OpenAI API (Chat Completion, Responses, Assistant), Codex, Claude Code and other items from my preferred [technology stack](https://github.com/dmugtasimov/python-best-practices#technology-stack)[²](#2).
 
 #### thenewboston (blockchain), `thenewboston.com` (former), USA, Team Leader / Senior Python Developer, Feb 2021 – Sep 2025 (2+ years excluding gaps)
 - Developed distributed proof of stake blockchain-based cryptocurrency – TNBC, distributed communication backend, and Python client-side library.
