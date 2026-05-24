@@ -1,18 +1,21 @@
-# Dmitry Mugtasimov
-Senior Python Developer / System Architect / Team Leader
+<h1 align="center">Dmitry Mugtasimov</h1>
 
-[dmugtasimov@gmail.com](mailto:dmugtasimov@gmail.com)
+<p align="center" class="resume-contact">
+Senior Python Developer / System Architect / Team Leader<br>
+<a href="mailto:dmugtasimov@gmail.com">dmugtasimov@gmail.com</a><br>
+Telegram: <a href="https://t.me/dmugtasimov">@dmugtasimov</a>
+</p>
 
-Telegram: [@dmugtasimov](https://t.me/dmugtasimov)
-
-***Top Rated Plus[¹](#1)** and **Expert-Vetted[¹](#1)** • **100%** Job Success Score[¹](#1)\
-**27 years** of experience • **7400+ hours** worked across **32 jobs** on Upwork\
-Outstanding feedback from clients • Fluent English*
+<p align="center" class="resume-summary">
+<em><strong>Top Rated Plus<a href="#1">¹</a></strong> and <strong>Expert-Vetted<a href="#1">¹</a></strong> • <strong>100%</strong> Job Success Score<a href="#1">¹</a><br>
+<strong>27 years</strong> of experience • <strong>7400+ hours</strong> worked across <strong>32 jobs</strong> on Upwork<br>
+Outstanding feedback from clients • Fluent English</em>
+</p>
 
 AI-first senior engineer applying AI across the full software delivery lifecycle — from code generation and testing to review, refactoring, debugging, and system operations. This amplifies already strong engineering fundamentals, system design judgment, and problem-solving ability, consistently delivering faster and higher-quality outcomes (all outputs are reviewed, refined, and validated to production quality standards).
 
 ## Key Strengths
-- Senior Python backend engineer with rare cross-functional depth in architecture, development, databases, DevOps, QA, management and system administration.
+- True Senior Python backend engineer with rare cross-functional depth in architecture, development, databases, DevOps, QA, management and system administration.
 
 - Proven ownership of complex production systems: API backends, microservices, SaaS platforms, high-load systems, distributed systems, search systems, and AI-powered products.
 
