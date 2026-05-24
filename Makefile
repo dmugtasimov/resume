@@ -4,9 +4,12 @@ WEASYPRINT_VERSION := 68.1
 BUILD_DIR := build
 BUILD_DATE := $(shell date '+%Y-%m-%d')
 VERSION := $(shell cat .version)
+PDF_SOURCES := README.md .version src/pandoc.yaml src/pandoc-pdf-template.html src/resume.css Makefile
 TEMPORARY_HTML_FILE := /tmp/.resume-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.html
 TEMPORARY_HTML_MARKDOWN_FILE := /tmp/.resume-html-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.md
 TEMPORARY_PDF_MARKDOWN_FILE := /tmp/.resume-pdf-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.md
+TEMPORARY_UPWORK_HTML_FILE := /tmp/.resume-upwork-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.html
+TEMPORARY_UPWORK_PDF_MARKDOWN_FILE := /tmp/.resume-upwork-pdf-$(shell date '+%Y-%d-%m-%H-%M-%S').tmp.md
 GREEN := \033[0;32m
 RESET := \033[0m
 msg ?= $(shell date '+%Y-%m-%d %H:%M:%S')
@@ -22,6 +25,7 @@ src/pandoc.yaml: ;
 src/pandoc-html.yaml: ;
 src/pandoc-pdf-template.html: ;
 src/resume.css: ;
+src/resume-upwork.css: ;
 
 .PHONY: install-uv
 install-uv:
@@ -66,11 +70,17 @@ $(BUILD_DIR)/:
 $(BUILD_DIR)/dmugtasimov-resume.md: README.md .version Makefile | $(BUILD_DIR)/
 	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(BUILD_DIR)/dmugtasimov-resume.md
 
-$(BUILD_DIR)/dmugtasimov-resume.pdf: README.md .version src/pandoc.yaml src/pandoc-pdf-template.html src/resume.css Makefile | $(BUILD_DIR)/
+$(BUILD_DIR)/dmugtasimov-resume.pdf: $(PDF_SOURCES) | $(BUILD_DIR)/
 	trap 'rm -f "$(TEMPORARY_HTML_FILE)" "$(TEMPORARY_PDF_MARKDOWN_FILE)"' EXIT && \
 	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(TEMPORARY_PDF_MARKDOWN_FILE) && \
 	$(MAKE) run-pandoc args='--defaults=src/pandoc.yaml $(TEMPORARY_PDF_MARKDOWN_FILE) -o $(TEMPORARY_HTML_FILE)' && \
 	$(MAKE) run-weasyprint args='--base-url "$(CURDIR)" "$(TEMPORARY_HTML_FILE)" $(BUILD_DIR)/dmugtasimov-resume.pdf'
+
+$(BUILD_DIR)/dmugtasimov-resume-upwork.pdf: $(PDF_SOURCES) src/resume-upwork.css | $(BUILD_DIR)/
+	trap 'rm -f "$(TEMPORARY_UPWORK_HTML_FILE)" "$(TEMPORARY_UPWORK_PDF_MARKDOWN_FILE)"' EXIT && \
+	sed 's/{{VERSION}}/$(VERSION)/g; s/{{DATE}}/$(BUILD_DATE)/g' README.md > $(TEMPORARY_UPWORK_PDF_MARKDOWN_FILE) && \
+	$(MAKE) run-pandoc args='--defaults=src/pandoc.yaml --css=src/resume-upwork.css $(TEMPORARY_UPWORK_PDF_MARKDOWN_FILE) -o $(TEMPORARY_UPWORK_HTML_FILE)' && \
+	$(MAKE) run-weasyprint args='--base-url "$(CURDIR)" "$(TEMPORARY_UPWORK_HTML_FILE)" $(BUILD_DIR)/dmugtasimov-resume-upwork.pdf'
 
 $(BUILD_DIR)/dmugtasimov-resume.html: README.md .version src/pandoc-html.yaml src/resume.css Makefile | $(BUILD_DIR)/
 	trap 'rm -f "$(TEMPORARY_HTML_MARKDOWN_FILE)"' EXIT && \
@@ -83,6 +93,9 @@ build-md: $(BUILD_DIR)/dmugtasimov-resume.md
 .PHONY: build-pdf
 build-pdf: $(BUILD_DIR)/dmugtasimov-resume.pdf
 
+.PHONY: build-upwork-pdf
+build-upwork-pdf: $(BUILD_DIR)/dmugtasimov-resume-upwork.pdf
+
 .PHONY: build-html
 build-html: $(BUILD_DIR)/dmugtasimov-resume.html
 
@@ -90,7 +103,7 @@ build-html: $(BUILD_DIR)/dmugtasimov-resume.html
 build-all: build-pdf build-html build-md ;
 
 .PHONY: build
-build: build-all ;
+build: build-all build-upwork-pdf ;
 
 .PHONY: build-force
 build-force:

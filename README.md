@@ -1,9 +1,10 @@
 <h1 align="center">Dmitry Mugtasimov</h1>
 
-<p align="center" class="resume-contact">
-Senior Python Developer / System Architect / Team Leader<br>
+<p align="center" class="resume-header">
+Senior Python Developer / System Architect / Team Leader<span class="resume-contact"><br>
 <a href="mailto:dmugtasimov@gmail.com">dmugtasimov@gmail.com</a><br>
 Telegram: <a href="https://t.me/dmugtasimov">@dmugtasimov</a>
+</span>
 </p>
 
 <p align="center" class="resume-summary">
